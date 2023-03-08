@@ -1,0 +1,20 @@
+.pairing-row {
+    border-style: solid;
+    border-color: black;
+    border-width: 1px 0px 0px 0px; 
+}
+
+.pairing-row > div {
+    padding: 5px 0px; 
+    text-align: center; 
+}
+
+.player-score {
+    font-size: 10pt;
+    float: right; 
+    text-align: center; 
+}
+
+.leading {
+    background: #ffa
+}

@@ -15,6 +15,7 @@ db = firestore.client()
 
 def trawlScores():
 	#scores object should be {player: (score, thru)}
+	#for players starting on 10, use -N to indicate N holes played
 	return scores
 	
 def postScores(round_abbrev, scores):

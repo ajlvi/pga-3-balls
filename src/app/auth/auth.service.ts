@@ -139,7 +139,7 @@ export class AuthService {
 
     autoLogout(expirationDuration: number) {
         this.tokenExpirationTimer = setTimeout(
-            () => { this.logout },
+            () => { this.logout() },
             expirationDuration
         );
     }

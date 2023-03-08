@@ -20,6 +20,8 @@ import { GroupConfigComponent } from './account/groups-update/group-config/group
 import { AddGroupComponent } from './account/groups-update/add-group/add-group.component';
 import { LifetimePipe } from './pick-history/lifetime.pipe';
 import { PercentagePipe } from './pick-history/percentage.pipe';
+import { ToParPipe } from './leaderboard/to-par.pipe';
+import { ThruPipe } from './leaderboard/thru.pipe';
 
 @NgModule({
   declarations: [
@@ -36,6 +38,8 @@ import { PercentagePipe } from './pick-history/percentage.pipe';
     TimePipe,
     LifetimePipe,
     PercentagePipe,
+    ToParPipe,
+    ThruPipe,
     GroupConfigComponent,
     AddGroupComponent
   ],

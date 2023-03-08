@@ -1,1 +1,42 @@
-<p>to be filled in when golf actually starts</p>
+<div class="container-fluid" style="margin-top: 5px;" *ngIf="pairings.length > 0">
+    <div class="row">
+        <div class="col-6">
+            {{pairings[0].roundname}}
+        </div>
+        <div class="col-6" *ngIf="!isCommunicating">
+            Refreshing in {{timeLeft}}
+        </div>
+        <div class="col-6" *ngIf="isCommunicating">
+            Refreshing...
+        </div>
+    </div>
+    <br>
+    <div class="row pairing-row" *ngFor="let group of pairings; let i = index">
+        <div class="col">{{group.time | time}}</div>
+        <div class="col-3" [ngClass]="{'leading': leaders[i] === group.player1}">
+            <div class="row">
+                <div class="col-9">
+                    {{group.player1}}
+                </div>
+                <div class="col-3 player-score">{{ group.score1 | ToPar }}</div>
+            </div>
+        </div>
+        <div class="col-3" [ngClass]="{'leading': leaders[i] === group.player2}">
+            <div class="row">
+                <div class="col-9">
+                    {{group.player2}}
+                </div>
+                <div class="col-3 player-score">{{ group.score2 | ToPar }}</div>
+            </div>
+        </div>
+        <div class="col-3" [ngClass]="{'leading': leaders[i] === group.player3}">
+            <div class="row">
+                <div class="col-9">
+                    {{group.player3}}
+                </div>
+                <div class="col-3 player-score">{{ group.score3 | ToPar }}</div>
+            </div>
+        </div>
+        <div class="col">{{group.thru | Thru }}</div>
+    </div>
+</div>
