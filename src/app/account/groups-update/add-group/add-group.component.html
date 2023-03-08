@@ -1,0 +1,24 @@
+<div class="row">
+    <div class="col">
+        <form #groupForm="ngForm" (ngSubmit)="onAddGroup(groupForm)" class="form-horizontal">
+            <div class="form-group row">
+                <label class="col-form-label col-lg-2 col-sm-3" for="newGroup">Add group</label>
+                <div class="col-lg-4 col-sm-6">
+                    <input
+                        type="text"
+                        name="newGroup"
+                        id="newGroup"
+                        class="form-control"
+                        ngModel
+                        required
+                        minlength="3"
+                        maxlength="50">
+                </div>
+                <div class="col-sm-3">
+                    <button type="submit" class="btn btn-primary">Add group</button>
+                </div>
+            </div>
+        </form>
+    </div> 
+</div>
+<div class="row"><span class="error-tip">{{error}}</span></div>

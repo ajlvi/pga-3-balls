@@ -1,0 +1,23 @@
+<nav class="navbar navbar-dark bg-dark navbar-expand-sm">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menubar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        </div>
+        <div class="collapse navbar-collapse" id="menubar">
+            <ul class="nav navbar-nav">
+                <li class="nav-item"><a class="section-button nav-link" routerLink="/make-picks">Make picks</a></li>
+                <li class="nav-item"><a class="section-button nav-link" routerLink="/pick-history">Pick history</a></li>
+                <li class="nav-item"><a class="section-button nav-link" routerLink="/leaderboard">Leaderboard</a></li>
+            </ul>
+            <ul class="nav navbar-nav ms-auto">
+                <li class="nav-item"><a class="section-button nav-link" routerLink="/account">Account</a></li>
+                <li class="nav-item">
+                    <a class="section-button nav-link" *ngIf="!isAuthenticated" routerLink="/auth">Sign in</a>
+                    <a class="section-button nav-link" *ngIf="isAuthenticated" (click)="onLogOut()">Sign out</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>

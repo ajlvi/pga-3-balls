@@ -1,0 +1,58 @@
+<div class="row" style="margin-top: 5px;">
+    <div class="col-xs-12 info-paragraph">Click players to select them, then use the update picks button to save your choices. Your saved picks are <b>bold</b>. To change your picks, make different selections and update again. (Note the "clear selections" button doesn't update picks.) Games with a red time can no longer be changed.</div>
+</div>
+<br>
+<div class="row" *ngIf="possessData">
+    <div class="col-xs-12 round-holder">{{groups[0].roundname}}</div>
+</div>
+<br>
+<div class="container-sm" *ngIf="possessData && !error">
+    <div class="row" *ngFor="let group of groups; let i = index">
+        <span class="col-lg-1 col-md-2 time-container" [ngClass]='{"expired": isExpired(i)}'>
+            {{group.time | time }}
+        </span>
+        <span 
+            class="col-lg-3 col-sm-3 player-container"
+            (click)="toggleSelected(i, group.player1)"
+            [ngClass]='{
+                "selected": selected[i] === group.player1,
+                "on-server": serverPicks[i] === group.player1
+            }'
+            >
+            <span class="player-name">{{group.player1}}</span>
+            <span class="player-odds">{{group.odds1}}</span>
+        </span>
+        <span 
+            class="col-lg-3 col-sm-3 player-container"
+            (click)="toggleSelected(i, group.player2)"
+            [ngClass]='{
+                "selected": selected[i] === group.player2,
+                "on-server": serverPicks[i] === group.player2
+            }'
+            >
+            <span class="player-name">{{group.player2}}</span>
+            <span class="player-odds">{{group.odds2}}</span>
+        </span>
+        <span 
+            class="col-lg-3 col-sm-3 player-container"
+            (click)="toggleSelected(i, group.player3)"
+            [ngClass]='{
+                "selected": selected[i] === group.player3,
+                "on-server": serverPicks[i] === group.player3
+            }'
+            >
+            <span class="player-name">{{group.player3}}</span>
+            <span class="player-odds">{{group.odds3}}</span>
+        </span>
+    </div>
+</div>
+<br>
+<div class="row">
+    <span class="pick-button-holder">
+        <button class="btn btn-primary" (click)="onStorePicks()">Update picks</button>
+        <button class="btn btn-secondary" (click)="onClearSelected()">Clear selections</button>
+    </span>
+    <span class="response-message">
+        {{message}}
+    </span>
+</div>

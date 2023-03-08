@@ -1,0 +1,35 @@
+
+.player-container:hover {
+    background: #ddd;
+}
+
+.selected { background : rgb(150, 150, 255) }
+.selected:hover {
+    background: #ccf 
+}
+
+.on-server { font-weight: bold; }
+
+.expired {
+    color: red;
+}
+
+.game-holder {
+    display: flex;
+    align-items: center;
+}
+
+.player-odds {
+    font-size: 10pt;
+    padding: 0px 0px 0px 5px;
+}
+
+.player-container, .time-container {
+    padding: 4px 0px ;
+    text-align: center ;
+    cursor: pointer;
+}
+
+.time-container {
+    min-width: 75px;
+}

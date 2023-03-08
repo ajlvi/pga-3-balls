@@ -1,0 +1,11 @@
+.error-tip {
+    color: #ff5555;
+    padding: 0px 0px 0px 10px;
+}
+
+.success-tip {
+    color: rgb(0, 133, 0);
+    padding: 0px 0px 0px 10px;
+}
+
+.bold-username { font-weight: bold; }

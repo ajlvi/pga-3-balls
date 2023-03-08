@@ -1,0 +1,31 @@
+<div class="row">
+    <div class="col-xs-12">
+        You're currently logged in as <span class="bold-username">{{username}}</span>. <span *ngIf="displayName">You'll show up as <b>{{displayName}}</b>.</span>
+    </div>
+</div>
+<br>
+<div class="row">
+    <div class="col-xs-12 col-md-6 col-md-offset-2">
+        <form #nameChangeForm="ngForm" (ngSubmit)="onChangeHandle(nameChangeForm)" *ngIf="!isLoading">
+            <div class="form-group">
+                <label for="handle">Display name</label>
+                <span *ngIf="handle.touched && !handle.valid" class="error-tip">Display names must be between 3 and 50 characters.</span>
+                <input
+                    id="handle"
+                    name="handle"
+                    class="form-control"
+                    [ngModel]="displayName? displayName : ''"
+                    required
+                    minlength="3"
+                    maxlength="50"
+                    #handle="ngModel">
+            </div>
+            <br>
+            <button class="btn btn-primary" type="submit" [disabled]="!nameChangeForm.valid">
+                Change display name
+            </button>
+            <span *ngIf="error" class="error-tip">{{error}}</span>
+            <span *ngIf="successfulChange" class="success-tip">Display name successfully changed.</span>
+        </form>
+    </div>
+</div>

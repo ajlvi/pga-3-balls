@@ -1,0 +1,16 @@
+.error-tip {
+    color: #ff5555;
+    padding: 0px 0px 0px 10px;
+}
+
+.success-tip {
+    color: rgb(0, 133, 0);
+    padding: 0px 0px 0px 10px;
+}
+
+.caret-closed::before {
+    content: "▶";
+    color: #222;
+    font-size: 11pt;
+    padding: 0px 6px;
+}

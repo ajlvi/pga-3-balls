@@ -1,0 +1,47 @@
+<div class="container-fluid" style="margin-top: 5px;">
+    <div class="row">
+        <div class="col-xs-12 col-md-6 offset-md-3">
+            <form #authForm="ngForm" (ngSubmit)="onSubmit(authForm)" *ngIf="!isLoading">
+                <div class="form-group">
+                    <label for="email">E-Mail</label>
+                    <span *ngIf="email.touched && !email.valid" class="error-tip">Not a valid e-mail address.</span>
+                    <input
+                        #email="ngModel"
+                        type="email"
+                        id="email"
+                        name="email"
+                        class="form-control"
+                        ngModel
+                        required
+                        email>
+                </div>
+                <br>
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <span *ngIf="password.touched && !password.valid" class="error-tip">Passwords are a minimum six characters long.</span>
+                    <input
+                        ngModel
+                        #password="ngModel"
+                        type="password"
+                        id="password"
+                        name="password"
+                        class="form-control"
+                        minlength="6"
+                        required>
+                </div>
+                <br>
+                <div>
+                    <button class="btn btn-primary" type="submit" [disabled]="!authForm.valid">
+                        {{ isLoginMode ? "Log in" : "Sign up" }}
+                    </button>
+                    <span class="toggle-link">
+                        <a (click)="onToggleMode()">
+                            Switch to {{ isLoginMode ? 'sign up' : 'log in' }}
+                        </a>
+                    </span>
+                    <span class="error-tip">{{error}}</span>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
