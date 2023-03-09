@@ -36,7 +36,7 @@
     </div>
 <br>
     <div class="row" *ngIf="!isLoading && groupData[username]">
-        <div class="col" *ngFor="let user of roster">
+        <div class="col-3" *ngFor="let user of roster">
             <div class="row">{{groupData[user]["handle"]}}</div>
             <div class="row">
                 lifetime: {{ groupData[user]["lifetimeRecord"] | lifetime }}
@@ -47,9 +47,20 @@
                 <span class="percentage">{{groupData[user]["roundRecord"] | percentage}}</span>
             </div>
             <br>
-            <div class="row" *ngFor="let _ of [].constructor(total_groups); let group_num = index">
-                <span class="player-pick" *ngIf="groupData[user].picks[group_num]">{{groupData[user].picks[group_num].pick}}</span>
-                <span class="player-pick" *ngIf="!groupData[user].picks[group_num]">&nbsp;</span>
+            <div class="row" 
+                *ngFor="let _ of [].constructor(total_groups); let group_num = index">
+                <span 
+                    class="player-pick" 
+                    [ngClass]='{
+                        "scrubbed": (currentRoundData[group_num].score1 === 100 || currentRoundData[group_num].score2 === 100 || currentRoundData[group_num].score3 === 100),
+                        "ahead": groupData[user].picks[group_num].pick === leaders[group_num],
+                        "won": (groupData[user].picks[group_num].pick === leaders[group_num]) && (currentRoundData[group_num].thru === 18 || currentRoundData[group_num].thru === -18)
+                     }'
+                    *ngIf="groupData[user].picks[group_num]">{{groupData[user].picks[group_num].pick}}</span>
+                <span 
+                    class="player-pick" 
+                    [ngClass]='{"scrubbed": (currentRoundData[group_num].score1 === 100 || currentRoundData[group_num].score2 === 100 || currentRoundData[group_num].score3 === 100)}'
+                    *ngIf="!groupData[user].picks[group_num]">&nbsp;</span>
             </div>
         </div>
     </div>

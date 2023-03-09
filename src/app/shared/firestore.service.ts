@@ -30,7 +30,6 @@ export class FirestoreService {
     }
 
     processFetchedRound(response: any): Group[] {
-        console.log(response);
         const fields = response["fields"];
         let output = []
         let grpidx = 0

@@ -65,12 +65,15 @@ def postScores(round_abbrev, scores):
 			if player not in scores:
 				try: player = names[player]
 				except KeyError:
-					scores[player] = (100, 0)
+					scores[player] = (100, 18)
 			round_dict[f"group{g}_s{i}"] = scores[player][0]
 			round_dict[f"group{g}_thru"] = scores[player][1]
 	
 	round_doc.set(round_dict)
-	
+
+def is_done(scores):
+	return not any([scores[player][1] < 18 for player in scores])
+		
 def group_num(key):
 	groupregex = r"group(\d+)_"
 	search = re.search(groupregex, key)
@@ -78,9 +81,14 @@ def group_num(key):
 	else: return 0
 	
 if __name__ == '__main__':
-	print("Collecting source...")
-	source = pgaSource()
-	print("Extracting scores...")
-	scores = trawlScores(source)
-	print("Posting scores...")
-	postScores("players23_r1", scores)
+	for loop in range(60*6):
+		print("Collecting source...")
+		source = pgaSource()
+		print("Extracting scores...")
+		scores = trawlScores(source)
+		print("Posting scores...")
+		postScores("players23_r1", scores)
+		if is_done(scores): break
+		else: 
+			print("Posted.\n")
+			time.sleep(60)

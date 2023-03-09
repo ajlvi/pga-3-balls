@@ -1,10 +1,9 @@
 import { Component, OnDestroy, OnInit } from '@angular/core';
 import { Subscription } from 'rxjs';
 import { AuthService } from '../auth/auth.service';
-import { CommonService } from '../shared/common.service';
 import { CurrentEventService } from '../shared/current-event.service';
 import { Group } from '../shared/group.interface';
-import { DayPicks, SinglePick } from '../shared/pick.interface';
+import { SinglePick } from '../shared/pick.interface';
 import { SeenDataService } from '../shared/seen-data.service';
 import { RecordData } from '../shared/user-data.interface';
 
@@ -16,6 +15,8 @@ import { RecordData } from '../shared/user-data.interface';
 export class PickHistoryComponent implements OnInit, OnDestroy {
   currentSub: Subscription
   currentRound: string = '';
+  currentRoundData: Group[];
+  leaders: {[group_num: number]: string} = {}
   progression: string[] = [];
   isLoading: boolean = true;
 
@@ -73,10 +74,18 @@ export class PickHistoryComponent implements OnInit, OnDestroy {
           this.progression = this.current.progression;
           if (!this.seen.sawRound(round)) {
             this.seen.getRound(round).subscribe(
-              () => { this.getGroupmateData(round); } //will get own pick history
+              () => { 
+                this.currentRoundData = this.seen.groupsByRound[round]
+                this.setLeaders();
+                this.getGroupmateData(round); 
+              } //will get own pick history
             )
           }
-          else { this.getGroupmateData(round); }
+          else { 
+            this.currentRoundData = this.seen.groupsByRound[round]
+            this.setLeaders();
+            this.getGroupmateData(round); 
+          }
         }
       }
     )
@@ -90,7 +99,6 @@ export class PickHistoryComponent implements OnInit, OnDestroy {
         needsPicks.push(user)
       }
     }
-    console.log(needsPicks)
     if (needsPicks.length > 0) {
       this.groupsLoading = true;
       this.seen.getMultiplePicks(needsPicks, round).subscribe(
@@ -130,6 +138,25 @@ export class PickHistoryComponent implements OnInit, OnDestroy {
       this.seen.getGroupRoster(group).subscribe(
         () => { this.getGroupmateData(this.currentRound) }
       )
+    }
+  }
+
+  //copied from pick-history
+  setLeaders() {
+    this.leaders = {}
+    for (let j=0; j < this.currentRoundData.length; j++ ) {
+      if (this.currentRoundData[j].score1 !== undefined) {
+        const to_par = [
+          this.currentRoundData[j].score1,
+          this.currentRoundData[j].score2,
+          this.currentRoundData[j].score3
+        ];
+        const lowest = Math.min(...to_par)
+        //does the lowest score appear more than once?
+        if (to_par.indexOf(lowest) === to_par.lastIndexOf(lowest)) {
+          this.leaders[j] = this.currentRoundData[j]["player" + (1+to_par.indexOf(lowest)).toString()]
+        }
+      }
     }
   }
 
