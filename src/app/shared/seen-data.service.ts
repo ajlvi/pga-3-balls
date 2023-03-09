@@ -144,7 +144,10 @@ export class SeenDataService {
             tap( () => {
                 this.UserData[user].groups = groupNames;
                 for (let group of groupNames) {
-                    if (!this.GroupRosters[group].includes(user)) {
+                    if (!this.GroupRosters[group]) {
+                        this.GroupRosters[group] = [user];
+                    }
+                    else if (!this.GroupRosters[group].includes(user)) {
                         this.GroupRosters[group].push(user);
                     }
                 }

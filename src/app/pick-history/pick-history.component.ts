@@ -118,7 +118,12 @@ export class PickHistoryComponent implements OnInit, OnDestroy {
         picks: this.seen.playerPicks[user][round].picks
       }
     }
-    if (this.activeGroup) { this.roster = userlist; }
+    if (this.activeGroup) { 
+      this.roster = [this.username];
+      for (let user of userlist) { 
+        if (user !== this.username) { this.roster.push(user) }
+      } 
+    }
     this.total_groups = this.seen.totalGroups(round)
     this.isLoading = false;
     this.groupsLoading = false;

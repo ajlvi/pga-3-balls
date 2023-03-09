@@ -31,7 +31,7 @@ export class MakePicksComponent implements OnInit, OnDestroy{
   ngOnInit(): void {
     this.roundSub = this.current.currentSubject.subscribe(
       round => {
-        if (round) {
+        if (round && !this.currentRound) {
           this.currentRound = round;
           this.fetchGroupsData();
         }
