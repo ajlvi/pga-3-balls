@@ -11,7 +11,11 @@
         </div>
     </div>
     <br>
-    <div class="row pairing-row" *ngFor="let group of pairings; let i = index">
+    <div 
+        class="row pairing-row" 
+        [ngClass]="{'scrubbed-row': group.score1 === 100 || group.score2 === 100 || group.score3 === 100}"
+        *ngFor="let group of pairings; 
+        let i = index">
         <div class="col">{{group.time | time}}</div>
         <div class="col-3" [ngClass]="{'leading': leaders[i] === group.player1}">
             <div class="row">

@@ -47,13 +47,13 @@ export class FirestoreService {
                 time: parseInt(fields[prefix + "time"]["doubleValue"])
             }
             if (prefix + "score1" in fields) {
-                groupObj["score1"] = parseInt(fields[prefix + "score1"]["integerValue"])
+                groupObj["score1"] = parseInt(fields[prefix + "s1"]["integerValue"])
             }
             if (prefix + "score2" in fields) {
-                groupObj["score2"] = parseInt(fields[prefix + "score2"]["integerValue"])
+                groupObj["score2"] = parseInt(fields[prefix + "s2"]["integerValue"])
             }
             if (prefix + "score3" in fields) {
-                groupObj["score3"] = parseInt(fields[prefix + "score3"]["integerValue"])
+                groupObj["score3"] = parseInt(fields[prefix + "s3"]["integerValue"])
             }
             if (prefix + "thru" in fields) {
                 groupObj["thru"] = parseInt(fields[prefix + "thru"]["integerValue"])
