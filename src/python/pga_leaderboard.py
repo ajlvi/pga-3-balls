@@ -45,7 +45,10 @@ def trawlScores(source):
 		name = player_dict["player"]["displayName"]
 		score = int(player_dict["scoreSort"])
 		thru = int(player_dict["thruSort"])
-		if thru == 19: thru = 18
+		if thru == 19: 
+			thru = 18
+			finished_round_id = int(player_dict["roundStatus"][1]) - 1
+			score = int(player_dict["rounds"][finished_round_id])
 		if player_dict["thru"] != '' and player_dict["thru"][-1] == "*": thru = -1 * thru
 		scores[name] = (score, thru)
 		

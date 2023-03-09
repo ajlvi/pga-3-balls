@@ -43,4 +43,5 @@ Thumbs.db
 
 # Environments
 src/environments/environment.development.ts
+
 src/python/geckodriver.log

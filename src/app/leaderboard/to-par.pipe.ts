@@ -7,6 +7,7 @@ export class ToParPipe implements PipeTransform {
         if (!value) { return '' }
         if (value === 100) {return "WD"} 
         else if ( value === 101 ) { return "DQ"; }
+        else if ( value > 58 ) { return value.toString(); }
         else if ( value > 0 ) { return "+" + value.toString() }
         else { return value.toString(); }
     }
