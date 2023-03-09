@@ -1,5 +1,6 @@
 import os
 import time
+import re
 from sys import argv
 
 import firebase_admin
@@ -35,11 +36,60 @@ def main(url, event, abbrev):
     round_doc.set(round_data)
     
 def grade(abbrev):
-	#get the document for the round [assumes all groupXX_scores are final]
+	#get the document for the round [assumes all groupXX_scores are final] and add winners
+	round_doc = db.collection("rounds").document(abbrev)
+	round_obj = round_doc.get()
+	round_dict = round_obj.to_dict()
+	totg = max([group_num(key) for key in round_dict]) + 1
+	for g in range(totg):
+		score1 = int(round_dict[f"group{g}_s1"]
+		score2 = int(round_dict[f"group{g}_s1"]
+		score3 = int(round_dict[f"group{g}_s1"]
+		scores = [score1, score2, score3]
+		if 100 in scores or 101 in scores: winner = "no action"
+		elif scores.count(min(scores)) > 1: winner = "push"
+		else:
+			winner_idx = scores.index(min(scores)) + 1
+			winner = round_dict[f"group{g}_p{winner_idx}"]
+		round_dict[f"group{g}_winner"] = winner
+	round_doc.set(round_dict)
+	
 	#find all picks documents for this round
+	user_picks = db.collection("picks").where("round", "==", abbrev)
 	#for each of those people, grade their picks; update picks document
+	for pick_doc in user_picks.stream():
+		pick_dict = pick_doc.to_dict()
+		wins, losses, ties = 0, 0, 0
+		unit_delta = 0
+		for g in range(totg):
+			if round_dict[f"group{g}_winner"] == "no action": pass
+			elif round_dict[f"group{g}_winner"] == "push": ties += 1
+			elif round_dict[f"group{g}_winner"] == pick_dict[f"pick_{g}"]:
+				wins += 1
+				unit_delta += odds_to_units(round_dict[f"group{g}_odds"]
+			else:
+				losses += 1
+				unit_delta -= 1	
 	#... then update the user document with record and lifetime units
-	pass
+		user_doc = db.collection("users").document(pick_doc["user"])
+		user_obj = user_doc.get()
+		user_dict = user_obj.to_dict()
+		user_dict["groupsWon"] += wins
+		user_dict["groupsLost"] += losses
+		user_dict["groupsTied"] += ties
+		user_dict["lifetimeUnits"] += unit_delta
+		user_doc.set(user_dict)
+	
+def odds_to_units(odds):
+	if odds == "EVEN": return 1
+	elif odds[0] == "+": return int(odds[1:])/100
+	else: return 100/int(odds[1:])
+	
+def group_num(key):
+	groupregex = r"group(\d+)_"
+	search = re.search(groupregex, key)
+	if search: return int(search.groups()[0])
+	else: return 0
 
 if __name__ == '__main__':
     #https://www.bovada.lv/sports/golf?overlay=login

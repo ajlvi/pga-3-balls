@@ -54,7 +54,9 @@
                     [ngClass]='{
                         "scrubbed": (currentRoundData[group_num].score1 === 100 || currentRoundData[group_num].score2 === 100 || currentRoundData[group_num].score3 === 100),
                         "ahead": groupData[user].picks[group_num].pick === leaders[group_num],
-                        "won": (groupData[user].picks[group_num].pick === leaders[group_num]) && (currentRoundData[group_num].thru === 18 || currentRoundData[group_num].thru === -18)
+                        "won": (groupData[user].picks[group_num].pick === leaders[group_num]) && (currentRoundData[group_num].thru === 18 || currentRoundData[group_num].thru === -18),
+                        "pushed": (!leaders[group_num] && currentRoundData[group_num].thru === 18),
+                        "pushing": (!leaders[group_num] && currentRoundData[group_num].thru < 18 )
                      }'
                     *ngIf="groupData[user].picks[group_num]">{{groupData[user].picks[group_num].pick}}</span>
                 <span 
