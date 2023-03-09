@@ -34,7 +34,6 @@ export class MakePicksComponent implements OnInit, OnDestroy{
         if (round) {
           this.currentRound = round;
           this.fetchGroupsData();
-          this.fetchPicksData();
         }
       }
     )
@@ -44,13 +43,14 @@ export class MakePicksComponent implements OnInit, OnDestroy{
     if (this.seen.sawRound(this.currentRound)) {
       this.groups = this.seen.groupsByRound[this.currentRound]
       this.possessData = true;
+      this.fetchPicksData();
     }
     else {
       this.seen.getRound(this.currentRound).subscribe(
         () => {
           this.groups = this.seen.groupsByRound[this.currentRound];
           this.possessData = true;
-          console.log(this.isExpired(0), new Date().getTime(), this.groups[0].time)
+          this.fetchPicksData();
         }
       )
     }

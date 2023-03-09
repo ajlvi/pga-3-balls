@@ -1,6 +1,7 @@
 .toggle-link {
     padding: 0px 0px 0px 10px; 
     color: #22a;
+    cursor: pointer;
 }
 
 .error-tip {
