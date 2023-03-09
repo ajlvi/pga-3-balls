@@ -45,6 +45,7 @@ def trawlScores(source):
 		name = player_dict["player"]["displayName"]
 		score = int(player_dict["scoreSort"])
 		thru = int(player_dict["thruSort"])
+		if thru == 19: thru = 18
 		if player_dict["thru"] != '' and player_dict["thru"][-1] == "*": thru = -1 * thru
 		scores[name] = (score, thru)
 		
@@ -52,7 +53,8 @@ def trawlScores(source):
 	
 def postScores(round_abbrev, scores):
 	round_doc = db.collection("rounds").document(round_abbrev)
-	round_dict = round_doc.get().to_dict()
+	round_obj = round_doc.get()
+	round_dict = round_obj.to_dict()
 	
 	#how many groups are there? note indexing starts at 0
 	totg = max([group_num(key) for key in round_dict]) + 1
@@ -76,6 +78,9 @@ def group_num(key):
 	else: return 0
 	
 if __name__ == '__main__':
+	print("Collecting source...")
 	source = pgaSource()
+	print("Extracting scores...")
 	scores = trawlScores(source)
+	print("Posting scores...")
 	postScores("players23_r1", scores)
