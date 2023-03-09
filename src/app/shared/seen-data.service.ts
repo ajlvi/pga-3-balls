@@ -99,12 +99,21 @@ export class SeenDataService {
         };
         for (let i=0; i < totg; i++) {
             //we need the time guard here
-            if (selected[i]) {
-                let pick_i: SinglePick = {
-                    pick: selected[i],
-                    group_no: i
+            if ( (new Date().getTime()) < this.groupsByRound[round][i].time ) {
+                if (selected[i]) {
+                    let pick_i: SinglePick = {
+                        pick: selected[i],
+                        group_no: i
+                    }
+                    picks["picks"][i] = pick_i
                 }
-                picks["picks"][i] = pick_i
+            }
+            else {
+                if (this.playerPicks[user][round].picks[i]) {
+                    let pick_i: SinglePick = this.playerPicks[user][round].picks[i];
+                    picks["picks"][i] = pick_i;
+                }
+                console.log( (new Date().getTime()).toString() + " > " + this.groupsByRound[round][i].time.toString() + " BAD")
             }
         }
         return this.fire.make_picks(picks).pipe(

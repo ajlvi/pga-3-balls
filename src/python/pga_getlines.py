@@ -49,7 +49,6 @@ def parseBovada(source):
 		pairing["odds2"] = block.split('<span class="bet-price">')[2].split("</span>")[0].strip()
 		pairing["odds3"] = block.split('<span class="bet-price">')[3].split("</span>")[0].strip()
 
-		print(pairing)
 		pairings.append(pairing)
 	return pairings
 

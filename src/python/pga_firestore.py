@@ -23,6 +23,7 @@ def main(url, event, abbrev):
     if current_dict["progression"][-1] != abbrev: current_dict["progression"].append(abbrev)    
     current_doc.set(current_dict)
 
+    print("Seeking matches...")
     matches = getlines.parseBovada(getlines.bovadaSource(url))
     print(len(matches), matches[0])
     round_data = {}

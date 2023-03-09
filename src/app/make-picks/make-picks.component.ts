@@ -50,6 +50,7 @@ export class MakePicksComponent implements OnInit, OnDestroy{
         () => {
           this.groups = this.seen.groupsByRound[this.currentRound];
           this.possessData = true;
+          console.log(this.isExpired(0), new Date().getTime(), this.groups[0].time)
         }
       )
     }
@@ -80,7 +81,6 @@ export class MakePicksComponent implements OnInit, OnDestroy{
     else {
       this.seen.getPicks(username, this.currentRound).subscribe(
         (response: DayPicks) => {
-          console.log(response);
           for (let group_no in response.picks) {
             this.serverPicks[parseInt(group_no)] = response.picks[group_no].pick;
             this.toggleSelected(parseInt(group_no), response.picks[group_no].pick)

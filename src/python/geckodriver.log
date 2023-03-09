@@ -373,3 +373,53 @@ console.error: ({})
 console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilePyxG81/search.json.mozlz4", (void 0)))
 DevTools listening on ws://127.0.0.1:59161/devtools/browser/bf41c829-1d04-4eee-abd0-d9853afc6e69
 1678255392761	Marionette	INFO	Stopped listening on port 35411
+1678318788205	geckodriver	INFO	Listening on 127.0.0.1:43263
+1678318788659	mozrunner::runner	INFO	Running command: "/snap/firefox/current/firefox.launcher" "--marionette" "-headless" "--remote-debugging-port" "57781" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilewwxi2R"
+*** You are running in headless mode.
+Gtk-Message: 18:39:48.677: Not loading module "atk-bridge": The functionality is provided by GTK natively. Please try to not load it.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+1678318788821	Marionette	INFO	Marionette enabled
+1678318788823	Marionette	INFO	Listening on port 43825
+Read port: 43825
+WebDriver BiDi listening on ws://127.0.0.1:57781
+1678318788889	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilewwxi2R/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:57781/devtools/browser/4cd5a031-f62c-4352-b66e-ccf97a49c157
+1678318793456	Marionette	INFO	Stopped listening on port 43825
+1678319125717	geckodriver	INFO	Listening on 127.0.0.1:45825
+1678319126171	mozrunner::runner	INFO	Running command: "/snap/firefox/current/firefox.launcher" "--marionette" "-headless" "--remote-debugging-port" "54729" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile7mGdh8"
+*** You are running in headless mode.
+Gtk-Message: 18:45:26.187: Not loading module "atk-bridge": The functionality is provided by GTK natively. Please try to not load it.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+1678319126355	Marionette	INFO	Marionette enabled
+1678319126357	Marionette	INFO	Listening on port 38869
+Read port: 38869
+WebDriver BiDi listening on ws://127.0.0.1:54729
+1678319126426	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile7mGdh8/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:54729/devtools/browser/83f468f1-86c2-4bfd-8f91-9fdda0a895f3
+1678319130036	Marionette	INFO	Stopped listening on port 38869
+JavaScript error: resource://gre/modules/Sqlite.sys.mjs, line 1208: Error: Sqlite.sys.mjs has been shutdown. Cannot open connection to: /tmp/rust_mozprofile7mGdh8/protections.sqlite
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
