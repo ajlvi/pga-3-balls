@@ -95,7 +95,7 @@ export class FirestoreService {
             "round": document["fields"]["round"]["stringValue"],
             "picks": {}
         };
-        for ( let i=0; i < this.common.totg_from_document(document); i++ ) {
+        for ( let i=0; i < this.common.totg_from_document(document) + 1; i++ ) {
             if (document["fields"]["pick_" + i.toString()]) {
                 const pickedPlayer = document["fields"]["pick_" + i.toString()]["stringValue"];
                 let pick_i: SinglePick = {
