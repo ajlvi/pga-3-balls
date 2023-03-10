@@ -171,7 +171,7 @@ export class SeenDataService {
                 if (result === 1) { 
                     wins++; 
                     //we need to find the winner.
-                    for (let j=0; j<3; j++) {
+                    for (let j=1; j<4; j++) {
                         if (picks.picks[i].pick == this.groupsByRound[round][i]["player" + j.toString()]) {
                             units = units + this.common.odds_to_units(this.groupsByRound[round][i]["odds" + j.toString()])
                         }
@@ -181,7 +181,9 @@ export class SeenDataService {
                     losses++; 
                     units = units - 1
                 }
-                else { ties++; }
+                else if ( result === 0 ) {
+                     ties++; 
+                }
             }
         }
         return new RecordData(user, wins, losses, ties, units);

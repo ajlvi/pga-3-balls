@@ -40,6 +40,7 @@ def grade(abbrev):
 	round_doc = db.collection("rounds").document(abbrev)
 	round_obj = round_doc.get()
 	round_dict = round_obj.to_dict()
+	print("Acquired round data.")
 	totg = max([group_num(key) for key in round_dict]) + 1
 	for g in range(totg):
 		score1 = int(round_dict[f"group{g}_s1"])
@@ -62,22 +63,27 @@ def grade(abbrev):
 		wins, losses, ties = 0, 0, 0
 		unit_delta = 0
 		for g in range(totg):
-			if round_dict[f"group{g}_winner"] == "no action": 
-				pick_dict[f"result_{g}"] = -2
-			elif round_dict[f"group{g}_winner"] == "push":
-				ties += 1
-				pick_dict[f"result_{g}"] = 0
-			elif round_dict[f"group{g}_winner"] == pick_dict[f"pick_{g}"]:
-				wins += 1
-				pick_dict[f"result_{g}"] = 1
-				unit_delta += odds_to_units(round_dict[f"group{g}_odds"])
-			else:
-				losses += 1
-				pick_dict[f"result_{g}"] = -1
-				unit_delta -= 1	
-		pick_doc.set(pick_dict)
+			if f"pick_{g}" in pick_dict:
+				if round_dict[f"group{g}_winner"] == "no action": 
+					pick_dict[f"result_{g}"] = -2
+				elif round_dict[f"group{g}_winner"] == "push":
+					ties += 1
+					pick_dict[f"result_{g}"] = 0
+				elif round_dict[f"group{g}_winner"] == pick_dict[f"pick_{g}"]:
+					wins += 1
+					pick_dict[f"result_{g}"] = 1
+					winner_idx = [idx for idx in [1, 2, 3] if round_dict[f"group{g}_p{idx}"] == round_dict[f"group{g}_winner"]][0]
+					unit_delta += odds_to_units(round_dict[f"group{g}_odds{winner_idx}"])
+				else:
+					losses += 1
+					pick_dict[f"result_{g}"] = -1
+					unit_delta -= 1
+		pick_dict["total"] = unit_delta
+		db.collection("picks").document(pick_doc.id).set(pick_dict)
+		print(f'User {pick_dict["user"]}\'s picks set at id {pick_doc.id}.')
+		
 	#... then update the user document with record and lifetime units
-		user_doc = db.collection("users").document(pick_doc["user"])
+		user_doc = db.collection("users").document(pick_dict["user"])
 		user_obj = user_doc.get()
 		user_dict = user_obj.to_dict()
 		user_dict["groupsWon"] += wins

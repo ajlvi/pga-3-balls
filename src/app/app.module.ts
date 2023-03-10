@@ -22,6 +22,7 @@ import { LifetimePipe } from './pick-history/lifetime.pipe';
 import { PercentagePipe } from './pick-history/percentage.pipe';
 import { ToParPipe } from './leaderboard/to-par.pipe';
 import { ThruPipe } from './leaderboard/thru.pipe';
+import { UnitPipe } from './pick-history/units.pipe';
 
 @NgModule({
   declarations: [
@@ -40,6 +41,7 @@ import { ThruPipe } from './leaderboard/thru.pipe';
     PercentagePipe,
     ToParPipe,
     ThruPipe,
+    UnitPipe,
     GroupConfigComponent,
     AddGroupComponent
   ],

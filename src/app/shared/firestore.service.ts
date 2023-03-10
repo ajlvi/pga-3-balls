@@ -103,7 +103,7 @@ export class FirestoreService {
                     group_no: i
                 };
                 if ( document["fields"]["result_" + i.toString()]) {
-                    pick_i["result"] = document["fields"]["result_" + i.toString()]["integerValue"]
+                    pick_i["result"] = parseInt(document["fields"]["result_" + i.toString()]["integerValue"])
                 }
                 if ( document["fields"]["daytotal"]) {
                     pick_i["daytotal"] = document["fields"]["total"]["doubleValue"]

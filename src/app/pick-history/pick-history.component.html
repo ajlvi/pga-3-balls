@@ -39,12 +39,34 @@
         <div class="col-3" *ngFor="let user of roster">
             <div class="row">{{groupData[user]["handle"]}}</div>
             <div class="row">
-                lifetime: {{ groupData[user]["lifetimeRecord"] | lifetime }}
-                <span class="percentage" *ngIf="groupData[user]['lifetimeRecord'].wins + groupData[user]['lifetimeRecord'].losses > 0">{{groupData[user]["lifetimeRecord"] | percentage}}</span>
+                <div class="col-3">
+                    lifetime
+                </div>
+                <div class="col-3">
+                    {{ groupData[user]["lifetimeRecord"] | lifetime }}
+                </div>
+                <div class="col-3">
+                    {{ groupData[user]["lifetimeRecord"].lifetimeUnits | Units }}
+                </div>
+                <div class="col-3">
+                    <span class="percentage" *ngIf="groupData[user]['lifetimeRecord'].wins + groupData[user]['lifetimeRecord'].losses > 0">{{groupData[user]["lifetimeRecord"] | percentage}}</span>
+                </div>
             </div>
             <div class="row" *ngIf="groupData[user]['roundRecord'].wins + groupData[user]['roundRecord'].losses > 0">
-                this round: {{ groupData[user]["roundRecord"] | lifetime }}
-                <span class="percentage">{{groupData[user]["roundRecord"] | percentage}}</span>
+                <div class="row">
+                    <div class="col-3">
+                        round
+                    </div>
+                    <div class="col-3">
+                        {{ groupData[user]["roundRecord"] | lifetime }}
+                    </div>
+                    <div class="col-3">
+                        {{ groupData[user]["roundRecord"].lifetimeUnits | Units }}
+                    </div>
+                    <div class="col-3">
+                        <span class="percentage" *ngIf="groupData[user]['roundRecord'].wins + groupData[user]['roundRecord'].losses > 0">{{groupData[user]["roundRecord"] | percentage}}</span>
+                    </div>
+                </div>
             </div>
             <br>
             <div class="row" 

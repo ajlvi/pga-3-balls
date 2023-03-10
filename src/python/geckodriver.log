@@ -4269,3 +4269,1045 @@ console.error: ({})
 console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileTBc4Ph/search.json.mozlz4", (void 0)))
 DevTools listening on ws://127.0.0.1:38025/devtools/browser/dbc8100e-acd6-4086-974f-cb7be6c185f6
 1678418174453	Marionette	INFO	Stopped listening on port 33567
+1678421199432	geckodriver	INFO	Listening on 127.0.0.1:59199
+1678421199889	mozrunner::runner	INFO	Running command: "/snap/firefox/current/firefox.launcher" "--marionette" "-headless" "--remote-debugging-port" "40513" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilepRpmOr"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+[GFX1-]: glxtest: Unable to open a connection to the X server
+1678421200044	Marionette	INFO	Marionette enabled
+1678421200046	Marionette	INFO	Listening on port 45273
+WebDriver BiDi listening on ws://127.0.0.1:40513
+Read port: 45273
+1678421200174	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilepRpmOr/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:40513/devtools/browser/33064339-6089-490c-8ea3-a3c28238a940
+1678421203733	Marionette	INFO	Stopped listening on port 45273
+1678421317010	geckodriver	INFO	Listening on 127.0.0.1:53141
+1678421317466	mozrunner::runner	INFO	Running command: "/snap/firefox/current/firefox.launcher" "--marionette" "-headless" "--remote-debugging-port" "56139" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile3lrKXr"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+[GFX1-]: glxtest: Unable to open a connection to the X server
+1678421317622	Marionette	INFO	Marionette enabled
+1678421317624	Marionette	INFO	Listening on port 44887
+WebDriver BiDi listening on ws://127.0.0.1:56139
+Read port: 44887
+1678421317695	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile3lrKXr/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:56139/devtools/browser/abd98bbc-f189-42e9-a706-f4f065dfd068
+1678421320893	Marionette	INFO	Stopped listening on port 44887
+1678463177128	geckodriver	INFO	Listening on 127.0.0.1:39227
+1678463177582	mozrunner::runner	INFO	Running command: "/snap/firefox/current/firefox.launcher" "--marionette" "-headless" "--remote-debugging-port" "53393" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileHC9fpv"
+*** You are running in headless mode.
+Gtk-Message: 10:46:17.599: Not loading module "atk-bridge": The functionality is provided by GTK natively. Please try to not load it.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+1678463177744	Marionette	INFO	Marionette enabled
+1678463177746	Marionette	INFO	Listening on port 38535
+Read port: 38535
+WebDriver BiDi listening on ws://127.0.0.1:53393
+1678463177818	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileHC9fpv/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:53393/devtools/browser/bfc601c2-f297-4912-b860-85d053d35426
+JavaScript warning: https://www.pgatour.com/_next/static/chunks/main-f86796ec34b8b5e9.js, line 1: unreachable code after return statement
+1678463182767	Marionette	INFO	Stopped listening on port 38535
+libEGL warning: DRI2: failed to create dri screen
+1678463221215	geckodriver	INFO	Listening on 127.0.0.1:54103
+1678463221673	mozrunner::runner	INFO	Running command: "/snap/firefox/current/firefox.launcher" "--marionette" "-headless" "--remote-debugging-port" "54611" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileDNAVGh"
+*** You are running in headless mode.
+Gtk-Message: 10:47:01.691: Not loading module "atk-bridge": The functionality is provided by GTK natively. Please try to not load it.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+1678463221830	Marionette	INFO	Marionette enabled
+1678463221832	Marionette	INFO	Listening on port 35679
+Read port: 35679
+WebDriver BiDi listening on ws://127.0.0.1:54611
+1678463221906	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileDNAVGh/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:54611/devtools/browser/c77ef46a-8362-48e5-ac6a-3f7c9fec9912
+JavaScript warning: https://www.pgatour.com/_next/static/chunks/main-f86796ec34b8b5e9.js, line 1: unreachable code after return statement
+libEGL warning: DRI2: failed to create dri screen
+1678463225526	Marionette	INFO	Stopped listening on port 35679
+1678463390657	geckodriver	INFO	Listening on 127.0.0.1:38287
+1678463391112	mozrunner::runner	INFO	Running command: "/snap/firefox/current/firefox.launcher" "--marionette" "-headless" "--remote-debugging-port" "50483" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileLwWdF5"
+*** You are running in headless mode.
+Gtk-Message: 10:49:51.129: Not loading module "atk-bridge": The functionality is provided by GTK natively. Please try to not load it.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+1678463391269	Marionette	INFO	Marionette enabled
+1678463391271	Marionette	INFO	Listening on port 42793
+Read port: 42793
+WebDriver BiDi listening on ws://127.0.0.1:50483
+1678463391343	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileLwWdF5/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:50483/devtools/browser/31494d7b-43f0-496a-b2c4-d1db9dc28832
+JavaScript warning: https://www.pgatour.com/_next/static/chunks/main-f86796ec34b8b5e9.js, line 1: unreachable code after return statement
+libEGL warning: DRI2: failed to create dri screen
+1678463395067	Marionette	INFO	Stopped listening on port 42793
+1678463560960	geckodriver	INFO	Listening on 127.0.0.1:37719
+1678463561414	mozrunner::runner	INFO	Running command: "/snap/firefox/current/firefox.launcher" "--marionette" "-headless" "--remote-debugging-port" "41469" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileMgh2f4"
+*** You are running in headless mode.
+Gtk-Message: 10:52:41.431: Not loading module "atk-bridge": The functionality is provided by GTK natively. Please try to not load it.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+1678463561599	Marionette	INFO	Marionette enabled
+1678463561602	Marionette	INFO	Listening on port 44541
+Read port: 44541
+WebDriver BiDi listening on ws://127.0.0.1:41469
+1678463561672	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileMgh2f4/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:41469/devtools/browser/c2355978-b1b4-48d4-81a2-3b14ce31abbc
+JavaScript warning: https://www.pgatour.com/_next/static/chunks/main-f86796ec34b8b5e9.js, line 1: unreachable code after return statement
+libEGL warning: DRI2: failed to create dri screen
+1678463567104	Marionette	INFO	Stopped listening on port 44541
+1678463655360	geckodriver	INFO	Listening on 127.0.0.1:57749
+1678463655816	mozrunner::runner	INFO	Running command: "/snap/firefox/current/firefox.launcher" "--marionette" "-headless" "--remote-debugging-port" "40025" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofiletm910z"
+*** You are running in headless mode.
+Gtk-Message: 10:54:15.832: Not loading module "atk-bridge": The functionality is provided by GTK natively. Please try to not load it.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+1678463655970	Marionette	INFO	Marionette enabled
+1678463655972	Marionette	INFO	Listening on port 35337
+WebDriver BiDi listening on ws://127.0.0.1:40025
+Read port: 35337
+1678463656097	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofiletm910z/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:40025/devtools/browser/917dcd83-e283-4b6a-8470-52652225f971
+JavaScript warning: https://cdns.us1.gigya.com//js/gigya.js?apikey=3_IscKmAoYcuwP8zpTnatC3hXBUm8rPuI-Hg_cZJ-jL-M7LgqCkxmwe-ps1Qy7PoWd, line 73: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://www.pgatour.com/_next/static/chunks/main-f86796ec34b8b5e9.js, line 1: unreachable code after return statement
+libEGL warning: DRI2: failed to create dri screen
+1678463661004	Marionette	INFO	Stopped listening on port 35337
+1678463722897	geckodriver	INFO	Listening on 127.0.0.1:39145
+1678463723354	mozrunner::runner	INFO	Running command: "/snap/firefox/current/firefox.launcher" "--marionette" "-headless" "--remote-debugging-port" "39305" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileHg7izF"
+*** You are running in headless mode.
+Gtk-Message: 10:55:23.372: Not loading module "atk-bridge": The functionality is provided by GTK natively. Please try to not load it.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+1678463723514	Marionette	INFO	Marionette enabled
+1678463723516	Marionette	INFO	Listening on port 39341
+Read port: 39341
+WebDriver BiDi listening on ws://127.0.0.1:39305
+1678463723590	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileHg7izF/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:39305/devtools/browser/c94b4e39-b52c-431c-9508-5ebdb22de607
+JavaScript warning: https://www.pgatour.com/_next/static/chunks/main-f86796ec34b8b5e9.js, line 1: unreachable code after return statement
+libEGL warning: DRI2: failed to create dri screen
+1678463729282	Marionette	INFO	Stopped listening on port 39341
+1678463790460	geckodriver	INFO	Listening on 127.0.0.1:43593
+1678463790919	mozrunner::runner	INFO	Running command: "/snap/firefox/current/firefox.launcher" "--marionette" "-headless" "--remote-debugging-port" "50371" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile2Hdt7t"
+*** You are running in headless mode.
+Gtk-Message: 10:56:30.936: Not loading module "atk-bridge": The functionality is provided by GTK natively. Please try to not load it.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+1678463791076	Marionette	INFO	Marionette enabled
+1678463791078	Marionette	INFO	Listening on port 45757
+Read port: 45757
+WebDriver BiDi listening on ws://127.0.0.1:50371
+1678463791152	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile2Hdt7t/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:50371/devtools/browser/ac3fc58f-30f2-4595-8ab0-65895858f598
+JavaScript warning: https://www.pgatour.com/_next/static/chunks/main-f86796ec34b8b5e9.js, line 1: unreachable code after return statement
+libEGL warning: DRI2: failed to create dri screen
+1678463795347	Marionette	INFO	Stopped listening on port 45757
+1678463857283	geckodriver	INFO	Listening on 127.0.0.1:46617
+1678463857740	mozrunner::runner	INFO	Running command: "/snap/firefox/current/firefox.launcher" "--marionette" "-headless" "--remote-debugging-port" "35921" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilew7ai5D"
+*** You are running in headless mode.
+Gtk-Message: 10:57:37.756: Not loading module "atk-bridge": The functionality is provided by GTK natively. Please try to not load it.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+1678463857901	Marionette	INFO	Marionette enabled
+1678463857903	Marionette	INFO	Listening on port 42317
+Read port: 42317
+WebDriver BiDi listening on ws://127.0.0.1:35921
+1678463857968	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilew7ai5D/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:35921/devtools/browser/a4e25e56-3789-40f5-86c4-92dd3df02f2d
+JavaScript warning: https://www.pgatour.com/_next/static/chunks/main-f86796ec34b8b5e9.js, line 1: unreachable code after return statement
+libEGL warning: DRI2: failed to create dri screen
+1678463861775	Marionette	INFO	Stopped listening on port 42317
+1678463923699	geckodriver	INFO	Listening on 127.0.0.1:47465
+1678463924156	mozrunner::runner	INFO	Running command: "/snap/firefox/current/firefox.launcher" "--marionette" "-headless" "--remote-debugging-port" "55735" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileVOgoko"
+*** You are running in headless mode.
+Gtk-Message: 10:58:44.173: Not loading module "atk-bridge": The functionality is provided by GTK natively. Please try to not load it.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+1678463924319	Marionette	INFO	Marionette enabled
+1678463924321	Marionette	INFO	Listening on port 45807
+Read port: 45807
+WebDriver BiDi listening on ws://127.0.0.1:55735
+1678463924397	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileVOgoko/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:55735/devtools/browser/046ce58b-1ec5-4a96-9d92-8513f4c17ce9
+JavaScript warning: https://www.pgatour.com/_next/static/chunks/main-f86796ec34b8b5e9.js, line 1: unreachable code after return statement
+libEGL warning: DRI2: failed to create dri screen
+1678463929840	Marionette	INFO	Stopped listening on port 45807
+1678463990890	geckodriver	INFO	Listening on 127.0.0.1:45953
+1678463991346	mozrunner::runner	INFO	Running command: "/snap/firefox/current/firefox.launcher" "--marionette" "-headless" "--remote-debugging-port" "37901" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile2GWfCg"
+*** You are running in headless mode.
+Gtk-Message: 10:59:51.363: Not loading module "atk-bridge": The functionality is provided by GTK natively. Please try to not load it.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+1678463991502	Marionette	INFO	Marionette enabled
+1678463991504	Marionette	INFO	Listening on port 45935
+Read port: 45935
+WebDriver BiDi listening on ws://127.0.0.1:37901
+1678463991575	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile2GWfCg/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:37901/devtools/browser/2f698b4b-1d1e-4f0d-a11a-378a10b7daea
+JavaScript warning: https://www.pgatour.com/_next/static/chunks/main-f86796ec34b8b5e9.js, line 1: unreachable code after return statement
+libEGL warning: DRI2: failed to create dri screen
+1678463995409	Marionette	INFO	Stopped listening on port 45935
+1678464056172	geckodriver	INFO	Listening on 127.0.0.1:42401
+1678464056628	mozrunner::runner	INFO	Running command: "/snap/firefox/current/firefox.launcher" "--marionette" "-headless" "--remote-debugging-port" "46409" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileqttxQ1"
+*** You are running in headless mode.
+Gtk-Message: 11:00:56.646: Not loading module "atk-bridge": The functionality is provided by GTK natively. Please try to not load it.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+1678464056790	Marionette	INFO	Marionette enabled
+1678464056792	Marionette	INFO	Listening on port 35243
+Read port: 35243
+WebDriver BiDi listening on ws://127.0.0.1:46409
+1678464056857	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileqttxQ1/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:46409/devtools/browser/db5e9e11-661b-45cb-84d2-8004b03bf45d
+JavaScript warning: https://www.pgatour.com/_next/static/chunks/main-f86796ec34b8b5e9.js, line 1: unreachable code after return statement
+libEGL warning: DRI2: failed to create dri screen
+1678464064522	Marionette	INFO	Stopped listening on port 35243
+1678464125783	geckodriver	INFO	Listening on 127.0.0.1:53171
+1678464126239	mozrunner::runner	INFO	Running command: "/snap/firefox/current/firefox.launcher" "--marionette" "-headless" "--remote-debugging-port" "40377" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileV5wVpE"
+*** You are running in headless mode.
+Gtk-Message: 11:02:06.257: Not loading module "atk-bridge": The functionality is provided by GTK natively. Please try to not load it.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+1678464126409	Marionette	INFO	Marionette enabled
+1678464126411	Marionette	INFO	Listening on port 39877
+Read port: 39877
+WebDriver BiDi listening on ws://127.0.0.1:40377
+1678464126480	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileV5wVpE/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:40377/devtools/browser/662dfc0a-81a7-4e9c-8b17-13e41c53066f
+JavaScript warning: https://www.pgatour.com/_next/static/chunks/main-f86796ec34b8b5e9.js, line 1: unreachable code after return statement
+libEGL warning: DRI2: failed to create dri screen
+1678464130244	Marionette	INFO	Stopped listening on port 39877
+1678464192348	geckodriver	INFO	Listening on 127.0.0.1:46223
+1678464192805	mozrunner::runner	INFO	Running command: "/snap/firefox/current/firefox.launcher" "--marionette" "-headless" "--remote-debugging-port" "55091" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileeRDjWW"
+*** You are running in headless mode.
+Gtk-Message: 11:03:12.823: Not loading module "atk-bridge": The functionality is provided by GTK natively. Please try to not load it.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+1678464192972	Marionette	INFO	Marionette enabled
+1678464192974	Marionette	INFO	Listening on port 39257
+Read port: 39257
+WebDriver BiDi listening on ws://127.0.0.1:55091
+1678464193042	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileeRDjWW/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:55091/devtools/browser/f90b0784-7d2b-4912-bbca-4e29e2891552
+JavaScript warning: https://www.pgatour.com/_next/static/chunks/main-f86796ec34b8b5e9.js, line 1: unreachable code after return statement
+libEGL warning: DRI2: failed to create dri screen
+1678464196842	Marionette	INFO	Stopped listening on port 39257
+1678464257592	geckodriver	INFO	Listening on 127.0.0.1:44073
+1678464258049	mozrunner::runner	INFO	Running command: "/snap/firefox/current/firefox.launcher" "--marionette" "-headless" "--remote-debugging-port" "43287" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilezq8CN2"
+*** You are running in headless mode.
+Gtk-Message: 11:04:18.067: Not loading module "atk-bridge": The functionality is provided by GTK natively. Please try to not load it.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+1678464258218	Marionette	INFO	Marionette enabled
+1678464258221	Marionette	INFO	Listening on port 33751
+Read port: 33751
+WebDriver BiDi listening on ws://127.0.0.1:43287
+1678464258289	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilezq8CN2/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:43287/devtools/browser/aa6d11ec-838f-41d0-afbf-d04269bce28e
+JavaScript warning: https://www.pgatour.com/_next/static/chunks/main-f86796ec34b8b5e9.js, line 1: unreachable code after return statement
+libEGL warning: DRI2: failed to create dri screen
+1678464263024	Marionette	INFO	Stopped listening on port 33751
+1678464325684	geckodriver	INFO	Listening on 127.0.0.1:35843
+1678464326138	mozrunner::runner	INFO	Running command: "/snap/firefox/current/firefox.launcher" "--marionette" "-headless" "--remote-debugging-port" "38103" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofiley2XiYo"
+*** You are running in headless mode.
+Gtk-Message: 11:05:26.154: Not loading module "atk-bridge": The functionality is provided by GTK natively. Please try to not load it.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+1678464326295	Marionette	INFO	Marionette enabled
+1678464326297	Marionette	INFO	Listening on port 33341
+Read port: 33341
+WebDriver BiDi listening on ws://127.0.0.1:38103
+1678464326371	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofiley2XiYo/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:38103/devtools/browser/1f203138-0891-484a-b3f7-58e0101d5918
+JavaScript warning: https://www.pgatour.com/_next/static/chunks/main-f86796ec34b8b5e9.js, line 1: unreachable code after return statement
+libEGL warning: DRI2: failed to create dri screen
+1678464331023	Marionette	INFO	Stopped listening on port 33341
+1678464393259	geckodriver	INFO	Listening on 127.0.0.1:40309
+1678464393715	mozrunner::runner	INFO	Running command: "/snap/firefox/current/firefox.launcher" "--marionette" "-headless" "--remote-debugging-port" "54109" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilehbDgbE"
+*** You are running in headless mode.
+Gtk-Message: 11:06:33.732: Not loading module "atk-bridge": The functionality is provided by GTK natively. Please try to not load it.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+1678464393877	Marionette	INFO	Marionette enabled
+1678464393879	Marionette	INFO	Listening on port 34503
+Read port: 34503
+WebDriver BiDi listening on ws://127.0.0.1:54109
+1678464393946	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilehbDgbE/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:54109/devtools/browser/5076e5e9-8942-4988-9ec4-72b6babb4fa8
+JavaScript warning: https://www.pgatour.com/_next/static/chunks/main-f86796ec34b8b5e9.js, line 1: unreachable code after return statement
+libEGL warning: DRI2: failed to create dri screen
+1678464399815	Marionette	INFO	Stopped listening on port 34503
+1678464461435	geckodriver	INFO	Listening on 127.0.0.1:40737
+1678464461890	mozrunner::runner	INFO	Running command: "/snap/firefox/current/firefox.launcher" "--marionette" "-headless" "--remote-debugging-port" "54495" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile5b4euI"
+*** You are running in headless mode.
+Gtk-Message: 11:07:41.908: Not loading module "atk-bridge": The functionality is provided by GTK natively. Please try to not load it.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+1678464462070	Marionette	INFO	Marionette enabled
+1678464462072	Marionette	INFO	Listening on port 34083
+Read port: 34083
+WebDriver BiDi listening on ws://127.0.0.1:54495
+1678464462139	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile5b4euI/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:54495/devtools/browser/c1f6d4c3-c917-497c-95bd-6cfa1fe32e84
+JavaScript warning: https://www.pgatour.com/_next/static/chunks/main-f86796ec34b8b5e9.js, line 1: unreachable code after return statement
+libEGL warning: DRI2: failed to create dri screen
+1678464466075	Marionette	INFO	Stopped listening on port 34083
+1678464528004	geckodriver	INFO	Listening on 127.0.0.1:55887
+1678464528463	mozrunner::runner	INFO	Running command: "/snap/firefox/current/firefox.launcher" "--marionette" "-headless" "--remote-debugging-port" "32999" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileDm3D8b"
+*** You are running in headless mode.
+Gtk-Message: 11:08:48.480: Not loading module "atk-bridge": The functionality is provided by GTK natively. Please try to not load it.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+1678464528624	Marionette	INFO	Marionette enabled
+1678464528626	Marionette	INFO	Listening on port 43741
+Read port: 43741
+WebDriver BiDi listening on ws://127.0.0.1:32999
+1678464528698	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileDm3D8b/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:32999/devtools/browser/467c25d1-cf15-4c5b-99ee-92d06b24ef1e
+JavaScript warning: https://www.pgatour.com/_next/static/chunks/main-f86796ec34b8b5e9.js, line 1: unreachable code after return statement
+libEGL warning: DRI2: failed to create dri screen
+1678464535017	Marionette	INFO	Stopped listening on port 43741
+1678464596671	geckodriver	INFO	Listening on 127.0.0.1:57915
+1678464597127	mozrunner::runner	INFO	Running command: "/snap/firefox/current/firefox.launcher" "--marionette" "-headless" "--remote-debugging-port" "39249" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileJakQYZ"
+*** You are running in headless mode.
+Gtk-Message: 11:09:57.143: Not loading module "atk-bridge": The functionality is provided by GTK natively. Please try to not load it.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+1678464597303	Marionette	INFO	Marionette enabled
+1678464597305	Marionette	INFO	Listening on port 37729
+Read port: 37729
+WebDriver BiDi listening on ws://127.0.0.1:39249
+1678464597373	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileJakQYZ/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:39249/devtools/browser/a5138104-cfee-4621-9a52-f9a515d46ffd
+JavaScript warning: https://www.pgatour.com/_next/static/chunks/main-f86796ec34b8b5e9.js, line 1: unreachable code after return statement
+libEGL warning: DRI2: failed to create dri screen
+1678464601050	Marionette	INFO	Stopped listening on port 37729
+1678464663122	geckodriver	INFO	Listening on 127.0.0.1:55145
+1678464663579	mozrunner::runner	INFO	Running command: "/snap/firefox/current/firefox.launcher" "--marionette" "-headless" "--remote-debugging-port" "56215" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilemvVbL6"
+*** You are running in headless mode.
+Gtk-Message: 11:11:03.597: Not loading module "atk-bridge": The functionality is provided by GTK natively. Please try to not load it.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+1678464663758	Marionette	INFO	Marionette enabled
+1678464663760	Marionette	INFO	Listening on port 37395
+Read port: 37395
+WebDriver BiDi listening on ws://127.0.0.1:56215
+1678464663830	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilemvVbL6/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:56215/devtools/browser/8e5e35d8-8057-4fc3-85fb-f2e38eb7c0f7
+JavaScript warning: https://www.pgatour.com/_next/static/chunks/main-f86796ec34b8b5e9.js, line 1: unreachable code after return statement
+libEGL warning: DRI2: failed to create dri screen
+1678464667345	Marionette	INFO	Stopped listening on port 37395
+1678464728083	geckodriver	INFO	Listening on 127.0.0.1:58225
+1678464728537	mozrunner::runner	INFO	Running command: "/snap/firefox/current/firefox.launcher" "--marionette" "-headless" "--remote-debugging-port" "37973" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilePBgQqh"
+*** You are running in headless mode.
+Gtk-Message: 11:12:08.555: Not loading module "atk-bridge": The functionality is provided by GTK natively. Please try to not load it.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+1678464728698	Marionette	INFO	Marionette enabled
+1678464728700	Marionette	INFO	Listening on port 42313
+Read port: 42313
+WebDriver BiDi listening on ws://127.0.0.1:37973
+1678464728774	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilePBgQqh/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:37973/devtools/browser/c3229041-5cd1-42e1-9486-e0d7b8b676a1
+JavaScript warning: https://www.pgatour.com/_next/static/chunks/main-f86796ec34b8b5e9.js, line 1: unreachable code after return statement
+libEGL warning: DRI2: failed to create dri screen
+1678464732128	Marionette	INFO	Stopped listening on port 42313
+1678464794092	geckodriver	INFO	Listening on 127.0.0.1:57867
+1678464794550	mozrunner::runner	INFO	Running command: "/snap/firefox/current/firefox.launcher" "--marionette" "-headless" "--remote-debugging-port" "53289" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilepZrpE9"
+*** You are running in headless mode.
+Gtk-Message: 11:13:14.566: Not loading module "atk-bridge": The functionality is provided by GTK natively. Please try to not load it.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+1678464794709	Marionette	INFO	Marionette enabled
+1678464794711	Marionette	INFO	Listening on port 33295
+Read port: 33295
+WebDriver BiDi listening on ws://127.0.0.1:53289
+1678464794784	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilepZrpE9/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:53289/devtools/browser/07a5403a-a339-49e6-add9-60feef67e729
+JavaScript warning: https://www.pgatour.com/_next/static/chunks/main-f86796ec34b8b5e9.js, line 1: unreachable code after return statement
+libEGL warning: DRI2: failed to create dri screen
+1678464799415	Marionette	INFO	Stopped listening on port 33295
+1678464860471	geckodriver	INFO	Listening on 127.0.0.1:34075
+1678464860937	mozrunner::runner	INFO	Running command: "/snap/firefox/current/firefox.launcher" "--marionette" "-headless" "--remote-debugging-port" "49781" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilefcgQVx"
+*** You are running in headless mode.
+Gtk-Message: 11:14:20.955: Not loading module "atk-bridge": The functionality is provided by GTK natively. Please try to not load it.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+1678464861100	Marionette	INFO	Marionette enabled
+1678464861102	Marionette	INFO	Listening on port 43127
+Read port: 43127
+WebDriver BiDi listening on ws://127.0.0.1:49781
+1678464861167	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilefcgQVx/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:49781/devtools/browser/b8823dc3-397c-407e-aa27-8e825ee9cd01
+JavaScript warning: https://www.pgatour.com/_next/static/chunks/main-f86796ec34b8b5e9.js, line 1: unreachable code after return statement
+libEGL warning: DRI2: failed to create dri screen
+1678464867811	Marionette	INFO	Stopped listening on port 43127
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1678464928881	geckodriver	INFO	Listening on 127.0.0.1:50845
+1678464929336	mozrunner::runner	INFO	Running command: "/snap/firefox/current/firefox.launcher" "--marionette" "-headless" "--remote-debugging-port" "45397" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileMrKiTx"
+*** You are running in headless mode.
+Gtk-Message: 11:15:29.353: Not loading module "atk-bridge": The functionality is provided by GTK natively. Please try to not load it.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+1678464929496	Marionette	INFO	Marionette enabled
+1678464929498	Marionette	INFO	Listening on port 36979
+Read port: 36979
+WebDriver BiDi listening on ws://127.0.0.1:45397
+1678464929571	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileMrKiTx/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:45397/devtools/browser/a6117385-00b0-4cba-b893-65c641b96287
+JavaScript warning: https://www.pgatour.com/_next/static/chunks/main-f86796ec34b8b5e9.js, line 1: unreachable code after return statement
+libEGL warning: DRI2: failed to create dri screen
+1678464933153	Marionette	INFO	Stopped listening on port 36979
+1678464993860	geckodriver	INFO	Listening on 127.0.0.1:44989
+1678464994317	mozrunner::runner	INFO	Running command: "/snap/firefox/current/firefox.launcher" "--marionette" "-headless" "--remote-debugging-port" "47363" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile8BbPZi"
+*** You are running in headless mode.
+Gtk-Message: 11:16:34.334: Not loading module "atk-bridge": The functionality is provided by GTK natively. Please try to not load it.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+1678464994479	Marionette	INFO	Marionette enabled
+1678464994481	Marionette	INFO	Listening on port 43127
+Read port: 43127
+WebDriver BiDi listening on ws://127.0.0.1:47363
+1678464994553	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile8BbPZi/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:47363/devtools/browser/8861fdaf-3a11-4b68-822f-81a794d3e8d2
+JavaScript warning: https://www.pgatour.com/_next/static/chunks/main-f86796ec34b8b5e9.js, line 1: unreachable code after return statement
+libEGL warning: DRI2: failed to create dri screen
+1678464998369	Marionette	INFO	Stopped listening on port 43127
+1678465060300	geckodriver	INFO	Listening on 127.0.0.1:52331
+1678465060752	mozrunner::runner	INFO	Running command: "/snap/firefox/current/firefox.launcher" "--marionette" "-headless" "--remote-debugging-port" "33517" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilelw7hcI"
+*** You are running in headless mode.
+Gtk-Message: 11:17:40.772: Not loading module "atk-bridge": The functionality is provided by GTK natively. Please try to not load it.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+1678465060945	Marionette	INFO	Marionette enabled
+1678465060947	Marionette	INFO	Listening on port 44709
+Read port: 44709
+WebDriver BiDi listening on ws://127.0.0.1:33517
+1678465061016	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilelw7hcI/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:33517/devtools/browser/d1b952e1-1c82-49dc-b04d-e137254ef82b
+JavaScript warning: https://www.pgatour.com/_next/static/chunks/main-f86796ec34b8b5e9.js, line 1: unreachable code after return statement
+libEGL warning: DRI2: failed to create dri screen
+1678465064806	Marionette	INFO	Stopped listening on port 44709
+1678465126715	geckodriver	INFO	Listening on 127.0.0.1:60795
+1678465127168	mozrunner::runner	INFO	Running command: "/snap/firefox/current/firefox.launcher" "--marionette" "-headless" "--remote-debugging-port" "43103" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile5DOdbX"
+*** You are running in headless mode.
+Gtk-Message: 11:18:47.192: Not loading module "atk-bridge": The functionality is provided by GTK natively. Please try to not load it.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+1678465127339	Marionette	INFO	Marionette enabled
+1678465127341	Marionette	INFO	Listening on port 36377
+Read port: 36377
+WebDriver BiDi listening on ws://127.0.0.1:43103
+1678465127407	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile5DOdbX/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:43103/devtools/browser/d3831824-2546-41d2-855e-8e9e25f5be47
+JavaScript warning: https://www.pgatour.com/_next/static/chunks/main-f86796ec34b8b5e9.js, line 1: unreachable code after return statement
+libEGL warning: DRI2: failed to create dri screen
+1678465132195	Marionette	INFO	Stopped listening on port 36377
+1678465193807	geckodriver	INFO	Listening on 127.0.0.1:60737
+1678465194263	mozrunner::runner	INFO	Running command: "/snap/firefox/current/firefox.launcher" "--marionette" "-headless" "--remote-debugging-port" "32863" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileban2ei"
+*** You are running in headless mode.
+Gtk-Message: 11:19:54.280: Not loading module "atk-bridge": The functionality is provided by GTK natively. Please try to not load it.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+1678465194421	Marionette	INFO	Marionette enabled
+1678465194424	Marionette	INFO	Listening on port 35581
+Read port: 35581
+WebDriver BiDi listening on ws://127.0.0.1:32863
+1678465194497	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileban2ei/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:32863/devtools/browser/d93e8151-5f30-497a-b63b-acd22c84e981
+JavaScript warning: https://www.pgatour.com/_next/static/chunks/main-f86796ec34b8b5e9.js, line 1: unreachable code after return statement
+1678465199274	Marionette	INFO	Stopped listening on port 35581
+libEGL warning: DRI2: failed to create dri screen
+1678465260377	geckodriver	INFO	Listening on 127.0.0.1:56729
+1678465260834	mozrunner::runner	INFO	Running command: "/snap/firefox/current/firefox.launcher" "--marionette" "-headless" "--remote-debugging-port" "58731" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileni1pNO"
+*** You are running in headless mode.
+Gtk-Message: 11:21:00.852: Not loading module "atk-bridge": The functionality is provided by GTK natively. Please try to not load it.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+1678465260991	Marionette	INFO	Marionette enabled
+1678465260993	Marionette	INFO	Listening on port 38973
+Read port: 38973
+WebDriver BiDi listening on ws://127.0.0.1:58731
+1678465261068	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileni1pNO/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:58731/devtools/browser/53de5528-c3bf-41f2-b369-85fb3e22cdbb
+JavaScript warning: https://www.pgatour.com/_next/static/chunks/main-f86796ec34b8b5e9.js, line 1: unreachable code after return statement
+libEGL warning: DRI2: failed to create dri screen
+1678465265683	Marionette	INFO	Stopped listening on port 38973
+1678465328561	geckodriver	INFO	Listening on 127.0.0.1:43721
+1678465329018	mozrunner::runner	INFO	Running command: "/snap/firefox/current/firefox.launcher" "--marionette" "-headless" "--remote-debugging-port" "34631" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileqc1t3P"
+*** You are running in headless mode.
+Gtk-Message: 11:22:09.036: Not loading module "atk-bridge": The functionality is provided by GTK natively. Please try to not load it.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+1678465329176	Marionette	INFO	Marionette enabled
+1678465329178	Marionette	INFO	Listening on port 34703
+Read port: 34703
+WebDriver BiDi listening on ws://127.0.0.1:34631
+1678465329252	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileqc1t3P/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:34631/devtools/browser/69005382-7fb9-40ef-81c1-b124370c52fc
+JavaScript warning: https://www.pgatour.com/_next/static/chunks/main-f86796ec34b8b5e9.js, line 1: unreachable code after return statement
+libEGL warning: DRI2: failed to create dri screen
+1678465334459	Marionette	INFO	Stopped listening on port 34703
+1678465396523	geckodriver	INFO	Listening on 127.0.0.1:52761
+1678465396979	mozrunner::runner	INFO	Running command: "/snap/firefox/current/firefox.launcher" "--marionette" "-headless" "--remote-debugging-port" "43929" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilePxjr46"
+*** You are running in headless mode.
+Gtk-Message: 11:23:16.996: Not loading module "atk-bridge": The functionality is provided by GTK natively. Please try to not load it.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+1678465397137	Marionette	INFO	Marionette enabled
+1678465397139	Marionette	INFO	Listening on port 45287
+Read port: 45287
+WebDriver BiDi listening on ws://127.0.0.1:43929
+1678465397214	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilePxjr46/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:43929/devtools/browser/5f3c1535-ec38-43c3-811e-ae514c17f3a7
+JavaScript warning: https://www.pgatour.com/_next/static/chunks/main-f86796ec34b8b5e9.js, line 1: unreachable code after return statement
+libEGL warning: DRI2: failed to create dri screen
+1678465400727	Marionette	INFO	Stopped listening on port 45287
+1678465461498	geckodriver	INFO	Listening on 127.0.0.1:57325
+1678465461942	mozrunner::runner	INFO	Running command: "/snap/firefox/current/firefox.launcher" "--marionette" "-headless" "--remote-debugging-port" "53277" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilebw4Dn9"
+*** You are running in headless mode.
+Gtk-Message: 11:24:21.958: Not loading module "atk-bridge": The functionality is provided by GTK natively. Please try to not load it.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+1678465462108	Marionette	INFO	Marionette enabled
+1678465462110	Marionette	INFO	Listening on port 35449
+Read port: 35449
+WebDriver BiDi listening on ws://127.0.0.1:53277
+1678465462180	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilebw4Dn9/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:53277/devtools/browser/cd3bdce4-6ebc-4d2b-9dac-288293e080f2
+JavaScript warning: https://www.pgatour.com/_next/static/chunks/main-f86796ec34b8b5e9.js, line 1: unreachable code after return statement
+libEGL warning: DRI2: failed to create dri screen
+1678465467633	Marionette	INFO	Stopped listening on port 35449
+1678465528762	geckodriver	INFO	Listening on 127.0.0.1:39141
+1678465529221	mozrunner::runner	INFO	Running command: "/snap/firefox/current/firefox.launcher" "--marionette" "-headless" "--remote-debugging-port" "37121" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile85CEKb"
+*** You are running in headless mode.
+Gtk-Message: 11:25:29.238: Not loading module "atk-bridge": The functionality is provided by GTK natively. Please try to not load it.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+1678465529414	Marionette	INFO	Marionette enabled
+1678465529416	Marionette	INFO	Listening on port 35075
+Read port: 35075
+WebDriver BiDi listening on ws://127.0.0.1:37121
+1678465529482	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile85CEKb/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:37121/devtools/browser/010edb79-0a54-4ff3-beee-a1805cdbbab0
+JavaScript warning: https://www.pgatour.com/_next/static/chunks/main-f86796ec34b8b5e9.js, line 1: unreachable code after return statement
+libEGL warning: DRI2: failed to create dri screen
+1678465534566	Marionette	INFO	Stopped listening on port 35075
+1678465596410	geckodriver	INFO	Listening on 127.0.0.1:52471
+1678465596869	mozrunner::runner	INFO	Running command: "/snap/firefox/current/firefox.launcher" "--marionette" "-headless" "--remote-debugging-port" "45369" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile1DIrHw"
+*** You are running in headless mode.
+Gtk-Message: 11:26:36.887: Not loading module "atk-bridge": The functionality is provided by GTK natively. Please try to not load it.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+1678465597028	Marionette	INFO	Marionette enabled
+1678465597030	Marionette	INFO	Listening on port 43217
+Read port: 43217
+WebDriver BiDi listening on ws://127.0.0.1:45369
+1678465597104	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile1DIrHw/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:45369/devtools/browser/4429369e-4cc3-4c1b-8592-f02cdfed0612
+JavaScript warning: https://www.pgatour.com/_next/static/chunks/main-f86796ec34b8b5e9.js, line 1: unreachable code after return statement
+libEGL warning: DRI2: failed to create dri screen
+1678465601691	Marionette	INFO	Stopped listening on port 43217
+1678465662733	geckodriver	INFO	Listening on 127.0.0.1:55591
+1678465663190	mozrunner::runner	INFO	Running command: "/snap/firefox/current/firefox.launcher" "--marionette" "-headless" "--remote-debugging-port" "45423" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile5haMUz"
+*** You are running in headless mode.
+Gtk-Message: 11:27:43.208: Not loading module "atk-bridge": The functionality is provided by GTK natively. Please try to not load it.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+1678465663351	Marionette	INFO	Marionette enabled
+1678465663353	Marionette	INFO	Listening on port 45897
+Read port: 45897
+WebDriver BiDi listening on ws://127.0.0.1:45423
+1678465663425	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile5haMUz/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:45423/devtools/browser/43984f4e-4993-430c-9e77-82eb875cfc6b
+JavaScript warning: https://www.pgatour.com/_next/static/chunks/main-f86796ec34b8b5e9.js, line 1: unreachable code after return statement
+libEGL warning: DRI2: failed to create dri screen
+1678465666941	Marionette	INFO	Stopped listening on port 45897
+1678465728802	geckodriver	INFO	Listening on 127.0.0.1:58221
+1678465729256	mozrunner::runner	INFO	Running command: "/snap/firefox/current/firefox.launcher" "--marionette" "-headless" "--remote-debugging-port" "37601" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilegEb5Lo"
+*** You are running in headless mode.
+Gtk-Message: 11:28:49.274: Not loading module "atk-bridge": The functionality is provided by GTK natively. Please try to not load it.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+1678465729414	Marionette	INFO	Marionette enabled
+1678465729416	Marionette	INFO	Listening on port 45755
+Read port: 45755
+WebDriver BiDi listening on ws://127.0.0.1:37601
+1678465729490	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilegEb5Lo/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:37601/devtools/browser/d527d88a-37e9-41ae-8335-141d38b70aff
+JavaScript warning: https://www.pgatour.com/_next/static/chunks/main-f86796ec34b8b5e9.js, line 1: unreachable code after return statement
+libEGL warning: DRI2: failed to create dri screen
+1678465732963	Marionette	INFO	Stopped listening on port 45755
+1678465793678	geckodriver	INFO	Listening on 127.0.0.1:36853
+1678465794133	mozrunner::runner	INFO	Running command: "/snap/firefox/current/firefox.launcher" "--marionette" "-headless" "--remote-debugging-port" "50255" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileLQhvSD"
+*** You are running in headless mode.
+Gtk-Message: 11:29:54.151: Not loading module "atk-bridge": The functionality is provided by GTK natively. Please try to not load it.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+1678465794307	Marionette	INFO	Marionette enabled
+1678465794309	Marionette	INFO	Listening on port 36799
+Read port: 36799
+WebDriver BiDi listening on ws://127.0.0.1:50255
+1678465794378	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileLQhvSD/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:50255/devtools/browser/ad98d627-8085-49b1-81d8-71d55b10f859
+JavaScript warning: https://www.pgatour.com/_next/static/chunks/main-f86796ec34b8b5e9.js, line 1: unreachable code after return statement
+libEGL warning: DRI2: failed to create dri screen
+1678465799158	Marionette	INFO	Stopped listening on port 36799
+1678465861316	geckodriver	INFO	Listening on 127.0.0.1:57999
+1678465861772	mozrunner::runner	INFO	Running command: "/snap/firefox/current/firefox.launcher" "--marionette" "-headless" "--remote-debugging-port" "42315" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilewGnGDa"
+*** You are running in headless mode.
+Gtk-Message: 11:31:01.790: Not loading module "atk-bridge": The functionality is provided by GTK natively. Please try to not load it.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+1678465861930	Marionette	INFO	Marionette enabled
+1678465861931	Marionette	INFO	Listening on port 46713
+Read port: 46713
+WebDriver BiDi listening on ws://127.0.0.1:42315
+1678465862005	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilewGnGDa/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:42315/devtools/browser/d33ec356-8f78-477a-b281-a242da4c5437
+JavaScript warning: https://www.pgatour.com/_next/static/chunks/main-f86796ec34b8b5e9.js, line 1: unreachable code after return statement
+libEGL warning: DRI2: failed to create dri screen
+1678465866208	Marionette	INFO	Stopped listening on port 46713
+1678465928142	geckodriver	INFO	Listening on 127.0.0.1:34059
+1678465928601	mozrunner::runner	INFO	Running command: "/snap/firefox/current/firefox.launcher" "--marionette" "-headless" "--remote-debugging-port" "44317" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileBNA0p8"
+*** You are running in headless mode.
+Gtk-Message: 11:32:08.619: Not loading module "atk-bridge": The functionality is provided by GTK natively. Please try to not load it.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+1678465928758	Marionette	INFO	Marionette enabled
+1678465928760	Marionette	INFO	Listening on port 43445
+Read port: 43445
+WebDriver BiDi listening on ws://127.0.0.1:44317
+1678465928833	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileBNA0p8/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:44317/devtools/browser/0efc3f8f-d069-4b94-8326-8c029e7236b5
+JavaScript warning: https://www.pgatour.com/_next/static/chunks/main-f86796ec34b8b5e9.js, line 1: unreachable code after return statement
+libEGL warning: DRI2: failed to create dri screen
+1678465933847	Marionette	INFO	Stopped listening on port 43445
+1678465994876	geckodriver	INFO	Listening on 127.0.0.1:49243
+1678465995332	mozrunner::runner	INFO	Running command: "/snap/firefox/current/firefox.launcher" "--marionette" "-headless" "--remote-debugging-port" "42297" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileo6LOG7"
+*** You are running in headless mode.
+Gtk-Message: 11:33:15.350: Not loading module "atk-bridge": The functionality is provided by GTK natively. Please try to not load it.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+1678465995495	Marionette	INFO	Marionette enabled
+1678465995497	Marionette	INFO	Listening on port 45557
+Read port: 45557
+WebDriver BiDi listening on ws://127.0.0.1:42297
+1678465995560	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileo6LOG7/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:42297/devtools/browser/566c7b9a-3c1e-4226-b21d-bb64a8079f16
+JavaScript warning: https://www.pgatour.com/_next/static/chunks/main-f86796ec34b8b5e9.js, line 1: unreachable code after return statement
+libEGL warning: DRI2: failed to create dri screen
+1678465999066	Marionette	INFO	Stopped listening on port 45557
+1678466059789	geckodriver	INFO	Listening on 127.0.0.1:42055
+1678466060249	mozrunner::runner	INFO	Running command: "/snap/firefox/current/firefox.launcher" "--marionette" "-headless" "--remote-debugging-port" "52967" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile4XRB3h"
+*** You are running in headless mode.
+Gtk-Message: 11:34:20.272: Not loading module "atk-bridge": The functionality is provided by GTK natively. Please try to not load it.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+1678466060423	Marionette	INFO	Marionette enabled
+1678466060425	Marionette	INFO	Listening on port 38563
+Read port: 38563
+WebDriver BiDi listening on ws://127.0.0.1:52967
+1678466060491	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile4XRB3h/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:52967/devtools/browser/34315540-1f51-4cae-8345-558d22318359
+JavaScript warning: https://www.pgatour.com/_next/static/chunks/main-f86796ec34b8b5e9.js, line 1: unreachable code after return statement
+libEGL warning: DRI2: failed to create dri screen
+1678466065953	Marionette	INFO	Stopped listening on port 38563
+1678466126960	geckodriver	INFO	Listening on 127.0.0.1:46059
+1678466127418	mozrunner::runner	INFO	Running command: "/snap/firefox/current/firefox.launcher" "--marionette" "-headless" "--remote-debugging-port" "46207" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile16KN6a"
+*** You are running in headless mode.
+Gtk-Message: 11:35:27.435: Not loading module "atk-bridge": The functionality is provided by GTK natively. Please try to not load it.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+1678466127580	Marionette	INFO	Marionette enabled
+1678466127582	Marionette	INFO	Listening on port 40897
+Read port: 40897
+WebDriver BiDi listening on ws://127.0.0.1:46207
+1678466127647	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile16KN6a/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:46207/devtools/browser/eb40dfd4-2c50-498d-afa8-7cd342773e59
+JavaScript warning: https://www.pgatour.com/_next/static/chunks/main-f86796ec34b8b5e9.js, line 1: unreachable code after return statement
+libEGL warning: DRI2: failed to create dri screen
+1678466132899	Marionette	INFO	Stopped listening on port 40897
+1678466193959	geckodriver	INFO	Listening on 127.0.0.1:37827
+1678466194416	mozrunner::runner	INFO	Running command: "/snap/firefox/current/firefox.launcher" "--marionette" "-headless" "--remote-debugging-port" "60489" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile6jj9QU"
+*** You are running in headless mode.
+Gtk-Message: 11:36:34.433: Not loading module "atk-bridge": The functionality is provided by GTK natively. Please try to not load it.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+1678466194573	Marionette	INFO	Marionette enabled
+1678466194575	Marionette	INFO	Listening on port 38253
+Read port: 38253
+WebDriver BiDi listening on ws://127.0.0.1:60489
+1678466194648	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile6jj9QU/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:60489/devtools/browser/a3dbbf48-d1cd-4645-b150-b74a443e2046
+JavaScript warning: https://www.pgatour.com/_next/static/chunks/main-f86796ec34b8b5e9.js, line 1: unreachable code after return statement
+libEGL warning: DRI2: failed to create dri screen
+1678466198520	Marionette	INFO	Stopped listening on port 38253
+1678466260456	geckodriver	INFO	Listening on 127.0.0.1:37277
+1678466260912	mozrunner::runner	INFO	Running command: "/snap/firefox/current/firefox.launcher" "--marionette" "-headless" "--remote-debugging-port" "45379" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileqn3XWR"
+*** You are running in headless mode.
+Gtk-Message: 11:37:40.928: Not loading module "atk-bridge": The functionality is provided by GTK natively. Please try to not load it.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+1678466261070	Marionette	INFO	Marionette enabled
+1678466261072	Marionette	INFO	Listening on port 41063
+Read port: 41063
+WebDriver BiDi listening on ws://127.0.0.1:45379
+1678466261143	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileqn3XWR/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:45379/devtools/browser/4eedc471-6c2a-418f-96be-9fc9d56ca4d8
+JavaScript warning: https://www.pgatour.com/_next/static/chunks/main-f86796ec34b8b5e9.js, line 1: unreachable code after return statement
+libEGL warning: DRI2: failed to create dri screen
+1678466265096	Marionette	INFO	Stopped listening on port 41063
+1678466325770	geckodriver	INFO	Listening on 127.0.0.1:42099
+1678466326226	mozrunner::runner	INFO	Running command: "/snap/firefox/current/firefox.launcher" "--marionette" "-headless" "--remote-debugging-port" "44609" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileU3boou"
+*** You are running in headless mode.
+Gtk-Message: 11:38:46.244: Not loading module "atk-bridge": The functionality is provided by GTK natively. Please try to not load it.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+1678466326384	Marionette	INFO	Marionette enabled
+1678466326386	Marionette	INFO	Listening on port 37047
+Read port: 37047
+WebDriver BiDi listening on ws://127.0.0.1:44609
+1678466326460	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileU3boou/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:44609/devtools/browser/b2aec7a8-b3e6-4a45-8689-c92a507891a7
+JavaScript warning: https://www.pgatour.com/_next/static/chunks/main-f86796ec34b8b5e9.js, line 1: unreachable code after return statement
+libEGL warning: DRI2: failed to create dri screen
+1678466330307	Marionette	INFO	Stopped listening on port 37047
+1678466392617	geckodriver	INFO	Listening on 127.0.0.1:41913
+1678466393069	mozrunner::runner	INFO	Running command: "/snap/firefox/current/firefox.launcher" "--marionette" "-headless" "--remote-debugging-port" "54719" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilem81enf"
+*** You are running in headless mode.
+Gtk-Message: 11:39:53.087: Not loading module "atk-bridge": The functionality is provided by GTK natively. Please try to not load it.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+1678466393233	Marionette	INFO	Marionette enabled
+1678466393235	Marionette	INFO	Listening on port 41881
+Read port: 41881
+WebDriver BiDi listening on ws://127.0.0.1:54719
+1678466393300	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilem81enf/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:54719/devtools/browser/848740f1-53cd-44c8-adcb-882938d6b518
+JavaScript warning: https://www.pgatour.com/_next/static/chunks/main-f86796ec34b8b5e9.js, line 1: unreachable code after return statement
+1678466397955	Marionette	INFO	Stopped listening on port 41881
+libEGL warning: DRI2: failed to create dri screen
+1678466458952	geckodriver	INFO	Listening on 127.0.0.1:42743
+1678466459409	mozrunner::runner	INFO	Running command: "/snap/firefox/current/firefox.launcher" "--marionette" "-headless" "--remote-debugging-port" "53755" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileXtNIPv"
+*** You are running in headless mode.
+Gtk-Message: 11:40:59.427: Not loading module "atk-bridge": The functionality is provided by GTK natively. Please try to not load it.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+1678466459569	Marionette	INFO	Marionette enabled
+1678466459571	Marionette	INFO	Listening on port 40029
+Read port: 40029
+WebDriver BiDi listening on ws://127.0.0.1:53755
+1678466459645	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileXtNIPv/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:53755/devtools/browser/ceace737-b4fc-4631-b3be-d7f2c835e8e6
+JavaScript warning: https://www.pgatour.com/_next/static/chunks/main-f86796ec34b8b5e9.js, line 1: unreachable code after return statement
+libEGL warning: DRI2: failed to create dri screen
+1678466463408	Marionette	INFO	Stopped listening on port 40029
+1678466525472	geckodriver	INFO	Listening on 127.0.0.1:49895
+1678466525927	mozrunner::runner	INFO	Running command: "/snap/firefox/current/firefox.launcher" "--marionette" "-headless" "--remote-debugging-port" "36237" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofile8sFcPM"
+*** You are running in headless mode.
+Gtk-Message: 11:42:05.944: Not loading module "atk-bridge": The functionality is provided by GTK natively. Please try to not load it.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+1678466526086	Marionette	INFO	Marionette enabled
+1678466526088	Marionette	INFO	Listening on port 39735
+Read port: 39735
+WebDriver BiDi listening on ws://127.0.0.1:36237
+1678466526162	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile8sFcPM/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:36237/devtools/browser/9a48e882-ecea-475e-8df4-4becd03142ff
+JavaScript warning: https://www.pgatour.com/_next/static/chunks/main-f86796ec34b8b5e9.js, line 1: unreachable code after return statement
+libEGL warning: DRI2: failed to create dri screen
+1678466531619	Marionette	INFO	Stopped listening on port 39735
+1678466592839	geckodriver	INFO	Listening on 127.0.0.1:48333
+1678466593296	mozrunner::runner	INFO	Running command: "/snap/firefox/current/firefox.launcher" "--marionette" "-headless" "--remote-debugging-port" "59257" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilejnLo44"
+*** You are running in headless mode.
+Gtk-Message: 11:43:13.313: Not loading module "atk-bridge": The functionality is provided by GTK natively. Please try to not load it.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+1678466593458	Marionette	INFO	Marionette enabled
+1678466593460	Marionette	INFO	Listening on port 34729
+Read port: 34729
+WebDriver BiDi listening on ws://127.0.0.1:59257
+1678466593526	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilejnLo44/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:59257/devtools/browser/2aeee433-1822-45a6-9213-d35a37ffe701
+JavaScript warning: https://www.pgatour.com/_next/static/chunks/main-f86796ec34b8b5e9.js, line 1: unreachable code after return statement
+libEGL warning: DRI2: failed to create dri screen
+1678466597072	Marionette	INFO	Stopped listening on port 34729
+1678466657806	geckodriver	INFO	Listening on 127.0.0.1:52177
+1678466658259	mozrunner::runner	INFO	Running command: "/snap/firefox/current/firefox.launcher" "--marionette" "-headless" "--remote-debugging-port" "53749" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilezVIS1D"
+*** You are running in headless mode.
+Gtk-Message: 11:44:18.277: Not loading module "atk-bridge": The functionality is provided by GTK natively. Please try to not load it.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+1678466658420	Marionette	INFO	Marionette enabled
+1678466658422	Marionette	INFO	Listening on port 36771
+Read port: 36771
+WebDriver BiDi listening on ws://127.0.0.1:53749
+1678466658496	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilezVIS1D/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:53749/devtools/browser/bd6181a4-87a5-4cbd-a695-fd8c1861ebdb
+JavaScript warning: https://cdns.us1.gigya.com//js/gigya.js?apikey=3_IscKmAoYcuwP8zpTnatC3hXBUm8rPuI-Hg_cZJ-jL-M7LgqCkxmwe-ps1Qy7PoWd, line 73: Using //@ to indicate sourceURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://www.pgatour.com/_next/static/chunks/main-f86796ec34b8b5e9.js, line 1: unreachable code after return statement
+libEGL warning: DRI2: failed to create dri screen
+1678466664146	Marionette	INFO	Stopped listening on port 36771
+1678466725750	geckodriver	INFO	Listening on 127.0.0.1:43503
+1678466726206	mozrunner::runner	INFO	Running command: "/snap/firefox/current/firefox.launcher" "--marionette" "-headless" "--remote-debugging-port" "38349" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilezykQu5"
+*** You are running in headless mode.
+Gtk-Message: 11:45:26.224: Not loading module "atk-bridge": The functionality is provided by GTK natively. Please try to not load it.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+1678466726369	Marionette	INFO	Marionette enabled
+1678466726371	Marionette	INFO	Listening on port 35951
+Read port: 35951
+WebDriver BiDi listening on ws://127.0.0.1:38349
+1678466726441	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilezykQu5/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:38349/devtools/browser/4f6c1bc3-034e-4ef9-870e-241507a2e71f
+JavaScript warning: https://www.pgatour.com/_next/static/chunks/main-f86796ec34b8b5e9.js, line 1: unreachable code after return statement
+libEGL warning: DRI2: failed to create dri screen
+1678466730210	Marionette	INFO	Stopped listening on port 35951
+1678466792163	geckodriver	INFO	Listening on 127.0.0.1:53371
+1678466792619	mozrunner::runner	INFO	Running command: "/snap/firefox/current/firefox.launcher" "--marionette" "-headless" "--remote-debugging-port" "45139" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofilec8kees"
+*** You are running in headless mode.
+Gtk-Message: 11:46:32.637: Not loading module "atk-bridge": The functionality is provided by GTK natively. Please try to not load it.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+1678466792779	Marionette	INFO	Marionette enabled
+1678466792781	Marionette	INFO	Listening on port 44489
+Read port: 44489
+WebDriver BiDi listening on ws://127.0.0.1:45139
+1678466792852	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilec8kees/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:45139/devtools/browser/c0cc7cfe-f624-438d-bf94-66f01a437995
+JavaScript warning: https://www.pgatour.com/_next/static/chunks/main-f86796ec34b8b5e9.js, line 1: unreachable code after return statement
+libEGL warning: DRI2: failed to create dri screen
+1678466797978	Marionette	INFO	Stopped listening on port 44489
+1678466858915	geckodriver	INFO	Listening on 127.0.0.1:42401
+1678466859371	mozrunner::runner	INFO	Running command: "/snap/firefox/current/firefox.launcher" "--marionette" "-headless" "--remote-debugging-port" "36505" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "/tmp/rust_mozprofileHxWiyW"
+*** You are running in headless mode.
+Gtk-Message: 11:47:39.388: Not loading module "atk-bridge": The functionality is provided by GTK natively. Please try to not load it.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+[GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+1678466859533	Marionette	INFO	Marionette enabled
+1678466859535	Marionette	INFO	Listening on port 37773
+Read port: 37773
+WebDriver BiDi listening on ws://127.0.0.1:36505
+1678466859602	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileHxWiyW/search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:36505/devtools/browser/f56d110a-8c6e-4508-a960-75bbfe35210a
+JavaScript warning: https://www.pgatour.com/_next/static/chunks/main-f86796ec34b8b5e9.js, line 1: unreachable code after return statement
+libEGL warning: DRI2: failed to create dri screen
+1678466863251	Marionette	INFO	Stopped listening on port 37773

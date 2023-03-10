@@ -35,3 +35,31 @@
     padding: 4px 0px ;
     text-align: center ;
 }
+
+
+/* this is copied from stackexchange answer https://stackoverflow.com/a/49395765 */
+[data-round]:hover:after {
+    opacity: 1;
+    transition: all 0.1s ease 0.5s;
+    visibility: visible;
+}
+[data-round]:after {
+    content: attr(data-round);
+    background-color: #111;
+    color: white;
+    position: absolute;
+    padding: 5px 8px;
+    top: -2.25em;
+    left: 0%;
+    white-space: nowrap;
+    box-shadow: 1px 1px 3px #222222;
+    opacity: 0.2;
+    border: 1px solid #111111;
+    z-index: 99999;
+    visibility: hidden;
+    border-radius: 4px;
+    font-weight: normal;
+}
+[data-round] {
+    position: relative;
+}

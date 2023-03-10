@@ -42,15 +42,16 @@ def trawlScores(source):
 	raw_json = source.split('<script id="__NEXT_DATA__" type="application/json">')[1].split("</script>")[0]
 	json_data = json.loads(raw_json)
 	for player_dict in json_data["props"]["pageProps"]["leaderboard"]["players"]:
-		name = player_dict["player"]["displayName"]
-		score = int(player_dict["scoreSort"])
-		thru = int(player_dict["thruSort"])
-		if thru == 19: 
-			thru = 18
-			finished_round_id = int(player_dict["roundStatus"][1]) - 1
-			score = int(player_dict["rounds"][finished_round_id])
-		if player_dict["thru"] != '' and player_dict["thru"][-1] == "*": thru = -1 * thru
-		scores[name] = (score, thru)
+		if player_dict["__typename"] != "InformationRow": #cut line!
+			name = player_dict["player"]["displayName"]
+			score = int(player_dict["scoreSort"])
+			thru = int(player_dict["thruSort"])
+			if thru == 19: 
+				thru = 18
+				finished_round_id = int(player_dict["roundStatus"][1]) - 1
+				score = int(player_dict["rounds"][finished_round_id])
+			if player_dict["thru"] != '' and player_dict["thru"][-1] == "*": thru = -1 * thru
+			scores[name] = (score, thru)
 		
 	return scores
 	
@@ -90,7 +91,7 @@ if __name__ == '__main__':
 		print("Extracting scores...")
 		scores = trawlScores(source)
 		print("Posting scores...")
-		postScores("players23_r1", scores)
+		postScores("players23_r2", scores)
 		if is_done(scores): break
 		else: 
 			print("Posted.\n")

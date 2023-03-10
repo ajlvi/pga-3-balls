@@ -18,6 +18,7 @@
                 "selected": selected[i] === group.player1,
                 "on-server": serverPicks[i] === group.player1
             }'
+            [attr.data-round]="previousRound[group.player1] ? previousRound[group.player1] : null"
             >
             <span class="player-name">{{group.player1}}</span>
             <span class="player-odds">{{group.odds1}}</span>
@@ -29,6 +30,7 @@
                 "selected": selected[i] === group.player2,
                 "on-server": serverPicks[i] === group.player2
             }'
+            [attr.data-round]="previousRound[group.player1] ? previousRound[group.player1] : null"
             >
             <span class="player-name">{{group.player2}}</span>
             <span class="player-odds">{{group.odds2}}</span>
@@ -40,6 +42,7 @@
                 "selected": selected[i] === group.player3,
                 "on-server": serverPicks[i] === group.player3
             }'
+            [attr.data-round]="previousRound[group.player1] ? previousRound[group.player1] : null"
             >
             <span class="player-name">{{group.player3}}</span>
             <span class="player-odds">{{group.odds3}}</span>

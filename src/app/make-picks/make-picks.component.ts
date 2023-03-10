@@ -18,6 +18,7 @@ export class MakePicksComponent implements OnInit, OnDestroy{
   error: string = '';
   message: string = '';
   groups: Group[] = [];
+  previousRound: {[player: string]: string} = {}; 
 
   selected: {[group_no: number]: string} = {}
   serverPicks: {[group_no: number]: string} = {}
@@ -49,10 +50,41 @@ export class MakePicksComponent implements OnInit, OnDestroy{
       this.seen.getRound(this.currentRound).subscribe(
         () => {
           this.groups = this.seen.groupsByRound[this.currentRound];
+          if (this.currentRound.slice(-1) === "2") {
+            this.fetchR1data();
+          }
           this.possessData = true;
           this.fetchPicksData();
         }
       )
+    }
+  }
+
+  fetchR1data() {
+    const r1 = this.currentRound.slice(0, this.currentRound.length -1) + "1"
+    if ( this.seen.sawRound(r1) ) {
+      this.setPrevious(r1);
+    }
+    else {
+      this.seen.getRound(r1).subscribe(
+        () => { this.setPrevious(r1); }
+      )
+    }
+  }
+
+  setPrevious(round) {
+    for (let p in this.seen.groupsByRound[round] ) {
+      const pairing = this.seen.groupsByRound[round][p]
+      const p1 = pairing.player1;
+      const p2 = pairing.player2;
+      const p3 = pairing.player3;
+      const scoreline =
+        p1 + " " + pairing.score1.toString() + " - " +
+        p2 + " " + pairing.score2.toString() + " - " +
+        p3 + " " + pairing.score3.toString()
+    this.previousRound[p1] = scoreline;
+    this.previousRound[p2] = scoreline;
+    this.previousRound[p3] = scoreline;
     }
   }
 
