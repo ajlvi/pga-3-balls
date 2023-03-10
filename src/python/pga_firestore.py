@@ -42,9 +42,9 @@ def grade(abbrev):
 	round_dict = round_obj.to_dict()
 	totg = max([group_num(key) for key in round_dict]) + 1
 	for g in range(totg):
-		score1 = int(round_dict[f"group{g}_s1"]
-		score2 = int(round_dict[f"group{g}_s1"]
-		score3 = int(round_dict[f"group{g}_s1"]
+		score1 = int(round_dict[f"group{g}_s1"])
+		score2 = int(round_dict[f"group{g}_s2"])
+		score3 = int(round_dict[f"group{g}_s3"])
 		scores = [score1, score2, score3]
 		if 100 in scores or 101 in scores: winner = "no action"
 		elif scores.count(min(scores)) > 1: winner = "push"
@@ -62,14 +62,20 @@ def grade(abbrev):
 		wins, losses, ties = 0, 0, 0
 		unit_delta = 0
 		for g in range(totg):
-			if round_dict[f"group{g}_winner"] == "no action": pass
-			elif round_dict[f"group{g}_winner"] == "push": ties += 1
+			if round_dict[f"group{g}_winner"] == "no action": 
+				pick_dict[f"result_{g}"] = -2
+			elif round_dict[f"group{g}_winner"] == "push":
+				ties += 1
+				pick_dict[f"result_{g}"] = 0
 			elif round_dict[f"group{g}_winner"] == pick_dict[f"pick_{g}"]:
 				wins += 1
-				unit_delta += odds_to_units(round_dict[f"group{g}_odds"]
+				pick_dict[f"result_{g}"] = 1
+				unit_delta += odds_to_units(round_dict[f"group{g}_odds"])
 			else:
 				losses += 1
+				pick_dict[f"result_{g}"] = -1
 				unit_delta -= 1	
+		pick_doc.set(pick_dict)
 	#... then update the user document with record and lifetime units
 		user_doc = db.collection("users").document(pick_doc["user"])
 		user_obj = user_doc.get()

@@ -125,6 +125,7 @@ export class PickHistoryComponent implements OnInit, OnDestroy {
       } 
     }
     this.total_groups = this.seen.totalGroups(round)
+    console.log(this.groupData);
     this.isLoading = false;
     this.groupsLoading = false;
   }
@@ -166,7 +167,22 @@ export class PickHistoryComponent implements OnInit, OnDestroy {
   }
 
   onRoundSelected(round: string) {
-    //
+    this.isLoading = true;
+    this.currentRound = round;
+    if (!this.seen.sawRound(round)) {
+      this.seen.getRound(round).subscribe(
+        () => {
+          this.currentRoundData = this.seen.groupsByRound[round];
+          this.setLeaders();
+          this.getGroupmateData(round);
+        }
+      )
+    }
+    else {
+      this.currentRoundData = this.seen.groupsByRound[round];
+      this.setLeaders();
+      this.getGroupmateData(round);
+    }
   }
 
   ngOnDestroy(): void {

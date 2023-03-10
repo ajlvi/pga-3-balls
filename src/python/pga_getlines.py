@@ -23,7 +23,7 @@ def bovadaSource(url):
 
 def parseBovada(source):
 	sgm = source.split("<sp-single-market")
-	blocks = [market for market in sgm if "1st-round-3-balls" in market]
+	blocks = [market for market in sgm if "2nd-round-3-balls" in market]
 	print(len(blocks))
 	pairings = []
 	for block in blocks:
