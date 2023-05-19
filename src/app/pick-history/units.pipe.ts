@@ -8,7 +8,6 @@ export class UnitPipe implements PipeTransform {
             minimumFractionDigits: 2,      
             maximumFractionDigits: 2,
          });
-
          const value_twodigits = formatter.format(value);
          if (value > 0) { return "+" + value_twodigits.toString() }
          else if ( value < 0 ) { return value_twodigits.toString() }

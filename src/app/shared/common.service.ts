@@ -16,6 +16,7 @@ export class CommonService {
     }
 
     odds_to_units(odds: string) {
+        if (odds === "EVEN") { return 1 }
         let value = parseInt(odds.slice(1))
         if (odds.slice(0, 1) === "+") {
             return value/100

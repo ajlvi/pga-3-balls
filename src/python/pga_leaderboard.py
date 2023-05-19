@@ -3,7 +3,7 @@ import time
 from sys import argv
 import json
 import re
-names = json.load(open("names.json"))
+names = json.load(open("names.json")) #this is {BOVADA : PGA}
 
 from selenium import webdriver
 from selenium.webdriver.firefox.options import Options
@@ -34,7 +34,10 @@ def pgaSource():
 	driver.close()
 	return source
 
-def trawlScores(source):
+def trawlScores(abbrev, source):
+	#what round is it? in case we're doing this after the fact
+	intendedRound = int(abbrev[-1])
+	
 	#scores object should be {player: (score, thru)}
 	#for players starting on 10, use -N to indicate N holes played
 	scores = {}
@@ -52,7 +55,16 @@ def trawlScores(source):
 				score = int(player_dict["rounds"][finished_round_id])
 			if player_dict["thru"] != '' and player_dict["thru"][-1] == "*": thru = -1 * thru
 			scores[name] = (score, thru)
-		
+			
+			if int(player_dict["roundHeader"][-1]) != intendedRound:
+				try:
+					thru = 18
+					score = int(player_dict["rounds"][intendedRound-1])
+				except ValueError:
+					print(name)
+					thru = 18
+					score = 100
+				scores[name] = (score, thru)
 	return scores
 	
 def postScores(round_abbrev, scores):
@@ -85,13 +97,14 @@ def group_num(key):
 	else: return 0
 	
 if __name__ == '__main__':
+	abbrev = "pga23_r2"
 	for loop in range(60*6):
 		print("Collecting source...")
 		source = pgaSource()
 		print("Extracting scores...")
-		scores = trawlScores(source)
+		scores = trawlScores(abbrev, source)
 		print("Posting scores...")
-		postScores("players23_r2", scores)
+		postScores(abbrev, scores)
 		if is_done(scores): break
 		else: 
 			print("Posted.\n")

@@ -104,7 +104,7 @@ def group_num(key):
 	else: return 0
 
 if __name__ == '__main__':
-    #https://www.bovada.lv/sports/golf?overlay=login
+    #https://www.bovada.lv/sports/golf/pga-tour/the-masters-2-3-balls
     url = input("Bovada URL: ")
     event = input("event name: ")
     abbrev = input("event abbrev: ")
