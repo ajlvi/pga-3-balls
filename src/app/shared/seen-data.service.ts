@@ -100,6 +100,13 @@ export class SeenDataService {
         for (let i=0; i < totg; i++) {
             //we need the time guard here
             //commenting the time guard out 230719 ajlvi
+            if (selected[i]) {
+                let pick_i: SinglePick = {
+                    pick: selected[i],
+                    group_no: i
+                }
+                picks["picks"][i] = pick_i
+            }           
             /*
             if ( (new Date().getTime()) < this.groupsByRound[round][i].time ) {
                 if (selected[i]) {
