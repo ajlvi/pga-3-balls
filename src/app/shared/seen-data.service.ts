@@ -99,7 +99,7 @@ export class SeenDataService {
         };
         for (let i=0; i < totg; i++) {
             //we need the time guard here
-            //commenting the time guard out 230719 ajlvi
+            //commenting the time guard out 230719 ajlvi; we need this workaround
             if (selected[i]) {
                 let pick_i: SinglePick = {
                     pick: selected[i],
