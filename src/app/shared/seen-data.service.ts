@@ -99,6 +99,8 @@ export class SeenDataService {
         };
         for (let i=0; i < totg; i++) {
             //we need the time guard here
+            //commenting the time guard out 230719 ajlvi
+            /*
             if ( (new Date().getTime()) < this.groupsByRound[round][i].time ) {
                 if (selected[i]) {
                     let pick_i: SinglePick = {
@@ -115,6 +117,7 @@ export class SeenDataService {
                 }
                 console.log( (new Date().getTime()).toString() + " > " + this.groupsByRound[round][i].time.toString() + " BAD")
             }
+            */
         }
         return this.fire.make_picks(picks).pipe(
             tap( response => {

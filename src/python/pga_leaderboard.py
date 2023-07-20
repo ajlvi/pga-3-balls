@@ -97,7 +97,7 @@ def group_num(key):
 	else: return 0
 	
 if __name__ == '__main__':
-	abbrev = "pga23_r2"
+	abbrev = "usopen23_r2"
 	for loop in range(60*6):
 		print("Collecting source...")
 		source = pgaSource()
